@@ -24,6 +24,8 @@ module.exports = {
         '12': '3rem',
       },
       spacing: {
+        'arrowspc': 'calc(100% - 150px)',
+        '-50%': '-50%',
         '32rem': '32rem',
         '17': '4.2rem',
         '300px': '300px',
@@ -35,9 +37,13 @@ module.exports = {
         '23px': '23px',
         '10px': '10px',
         '5px': '5px',
+        '3px': '3px',
+        '2px': '2px',
+      },
+      rotate:{
+        '45': '-45deg'
       },
       maxWidth: {
-
         '1340px': '1340px',
         '95%' : '95%',
         '90%' : '90%',

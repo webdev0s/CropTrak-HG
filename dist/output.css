@@ -580,24 +580,8 @@ video {
   }
 }
 
-.absolute {
-  position: absolute;
-}
-
 .relative {
   position: relative;
-}
-
-.right-0 {
-  right: 0px;
-}
-
-.top-0 {
-  top: 0px;
-}
-
-.bottom-0 {
-  bottom: 0px;
 }
 
 .mx-2 {
@@ -654,6 +638,10 @@ video {
   display: inline-block;
 }
 
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
@@ -682,16 +670,12 @@ video {
   width: 5rem;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .w-93\% {
   width: 93%;
 }
 
-.min-w-1400px {
-  min-width: 1400px;
+.w-full {
+  width: 100%;
 }
 
 .max-w-80\% {
@@ -842,6 +826,64 @@ video {
   transition-duration: 300ms;
 }
 
+.after\:absolute::after {
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.after\:-top-3::after {
+  content: var(--tw-content);
+  top: -0.75rem;
+}
+
+.after\:left-arrowspc::after {
+  content: var(--tw-content);
+  left: calc(100% - 150px);
+}
+
+.after\:-top-2::after {
+  content: var(--tw-content);
+  top: -0.5rem;
+}
+
+.after\:h-30px::after {
+  content: var(--tw-content);
+  height: 30px;
+}
+
+.after\:w-30px::after {
+  content: var(--tw-content);
+  width: 30px;
+}
+
+.after\:-translate-x-50\%::after {
+  content: var(--tw-content);
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.after\:rotate-45::after {
+  content: var(--tw-content);
+  --tw-rotate: -45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.after\:border-b-4::after {
+  content: var(--tw-content);
+  border-bottom-width: 4px;
+}
+
+.after\:border-r-4::after {
+  content: var(--tw-content);
+  border-right-width: 4px;
+}
+
+.after\:border-black::after {
+  content: var(--tw-content);
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
 .hover\:text-primary-green:hover {
   --tw-text-opacity: 1;
   color: rgb(120 185 109 / var(--tw-text-opacity));
@@ -964,14 +1006,6 @@ video {
 
   .desktop\:block {
     display: block;
-  }
-
-  .desktop\:inline-block {
-    display: inline-block;
-  }
-
-  .desktop\:inline {
-    display: inline;
   }
 
   .desktop\:hidden {
