@@ -594,8 +594,8 @@ video {
   margin-bottom: 30px;
 }
 
-.ml-71px {
-  margin-left: 71px;
+.ml-60px {
+  margin-left: 60px;
 }
 
 .ml-auto {
@@ -616,10 +616,6 @@ video {
 
 .mt-7 {
   margin-top: 1.75rem;
-}
-
-.ml-60px {
-  margin-left: 60px;
 }
 
 .block {
@@ -772,10 +768,6 @@ video {
 
   .laptop\:w-300px {
     width: 300px;
-  }
-
-  .laptop\:min-w-full {
-    min-width: 100%;
   }
 
   .laptop\:min-w-300px {
