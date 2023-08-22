@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {        
       colors:{
+      'primary-white': '#FEFEFE',
       'primary-green':'#78B96D',
       'primary-night': '#231F20',
       'primary-navy': '#0D162B',
@@ -23,6 +24,7 @@ module.exports = {
         '12': '3rem',
       },
       spacing: {
+        '17': '4.2rem',
         '300px': '300px',
         '71px': '71px',
         '60px': '60px',
@@ -34,7 +36,6 @@ module.exports = {
       maxWidth: {
         '1340px': '1340px',
         '90%' : '90%',
-
         '80%' : '80%',
         '75%' : '75%',
         '300px': '300px',
