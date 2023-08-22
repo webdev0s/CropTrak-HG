@@ -17,15 +17,27 @@ module.exports = {
         'primary-sans': ['IBM Plex Sans', 'sans-serif'],
         'primary-serif': ['IBM Plex Serif', 'serif'],
       },
+      lineHeight: {
+        '150%': '150%',
+        'extra-loose': '2.5',
+        '12': '3rem',
+      },
       spacing: {
         '300px': '300px',
         '71px': '71px',
         '60px': '60px',
         '50px': '50px',
+        '30px': '30px',
+        '10px': '10px',
       },
       maxWidth: {
         '1340px': '1340px',
-        '90%' : '90%'
+        '90%' : '90%',
+        '80%' : '80%',
+        '300px': '300px',
+      },
+      minWidth:{
+        '300px': '300px',
       },
       screens: {
         'tablet': '768px',
