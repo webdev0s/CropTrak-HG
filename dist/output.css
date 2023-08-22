@@ -533,3 +533,160 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mt-35px {
+  margin-top: 35px;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mr-71px {
+  margin-right: 71px;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.max-w-1340px {
+  max-width: 1340px;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
+.border-primary-green {
+  --tw-border-opacity: 1;
+  border-color: rgb(120 185 109 / var(--tw-border-opacity));
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
+.text-end {
+  text-align: end;
+}
+
+.font-primary-sans {
+  font-family: IBM Plex Sans, sans-serif;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-primary-green {
+  --tw-text-opacity: 1;
+  color: rgb(120 185 109 / var(--tw-text-opacity));
+}
+
+.text-primary-night {
+  --tw-text-opacity: 1;
+  color: rgb(35 31 32 / var(--tw-text-opacity));
+}
+
+.hover\:text-primary-green:hover {
+  --tw-text-opacity: 1;
+  color: rgb(120 185 109 / var(--tw-text-opacity));
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+
+@media (min-width: 768px) {
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:max-w-1340px {
+    max-width: 1340px;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
