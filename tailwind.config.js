@@ -20,11 +20,17 @@ module.exports = {
       spacing: {
         '300px': '300px',
         '71px': '71px',
+        '60px': '60px',
         '50px': '50px',
-        '35px': '35px',
       },
       maxWidth: {
         '1340px': '1340px',
+        '90%' : '90%'
+      },
+      screens: {
+        'tablet': '768px',
+        'laptop': '980px',
+        'desktop': '1400px',
       },
     },
   },

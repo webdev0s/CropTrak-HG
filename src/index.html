@@ -14,20 +14,24 @@
   <header>
       <!-- First line - Contact Us -->
       <div class="text-end  border-b-2 border-primary-green">
-        <div class="max-w-1340px mx-auto">
-          <a class="font-primary-sans uppercase text-sm md:text-xl text-primary-green font-medium inline-block mt-8 border-b-2 pb-2 border-primary-green hover:underline" href="#">Contact Us</a>
+        <div class="max-w-90% desktop:max-w-1340px mx-auto mt-2 tablet:mt-4 desktop:mt-6">
+          <a class="font-primary-sans uppercase text-sm  laptop:text-xl text-primary-green font-medium inline-block  border-b-2 pb-2 border-primary-green hover:underline" href="#">Contact Us</a>
         </div>
       </div>
       <!-- Second line - Logo and nav CONTAINER -->
-      <div class="block mx-auto mt-35px md:max-w-1340px items-center">
+      <div class="block mx-auto mt-7 tablet:mt-6 desktop:mt-9 max-w-90% desktop:max-w-1340px items-center">
             <!-- flex container -->
           <div class="flex">          
             <!-- logo image div -->
-            <div class="w-300px">
+            <div>
               <a href="index.html"><img src="img/Logo.png" alt="CropTrak Logo"></a>
             </div>
-            <!-- nav bar -->
-            <nav class="hidden md:flex ml-auto items-center">
+            <!-- hamburger menu -->
+            <div class="flex ml-auto items-center laptop:hidden">
+              <i class="fa-solid fa-bars fa-xl mx-2"></i>
+            </div>            
+            <!-- nav bar -->  
+            <nav class="hidden laptop:flex ml-auto items-center">
               <a class="font-primary-sans font-medium text-primary-night text-2xl mr-71px hover:text-primary-green hover:underline" href="#">Solutions</a>
               <a class="font-primary-sans font-medium text-primary-night text-2xl mr-71px hover:text-primary-green hover:underline" href="#">Approach</a>
               <a class="font-primary-sans font-medium text-primary-night text-2xl mr-71px hover:text-primary-green hover:underline" href="#">About</a>
@@ -36,5 +40,15 @@
           </div>
       </div>
   </header>
+  <main>
+    <!-- main container -->
+    <div class="max-w-1340px mx-auto">
+      <div class="mt-60px text-3xl font-primary-sans">
+        <h1>
+          Harvest the rewards of healthier supply chain management
+        </h1>
+      </div>
+    </div>
+  </main>
 </body>
 </html>

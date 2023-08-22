@@ -550,6 +550,12 @@ video {
   }
 }
 
+@media (min-width: 980px) {
+  .container {
+    max-width: 980px;
+  }
+}
+
 @media (min-width: 1024px) {
   .container {
     max-width: 1024px;
@@ -559,6 +565,12 @@ video {
 @media (min-width: 1280px) {
   .container {
     max-width: 1280px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1400px;
   }
 }
 
@@ -573,20 +585,42 @@ video {
   margin-right: auto;
 }
 
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
 .ml-auto {
   margin-left: auto;
 }
 
-.mt-35px {
-  margin-top: 35px;
+.mr-71px {
+  margin-right: 71px;
+}
+
+.mt-60px {
+  margin-top: 60px;
 }
 
 .mt-8 {
   margin-top: 2rem;
 }
 
-.mr-71px {
-  margin-right: 71px;
+.mt-9 {
+  margin-top: 2.25rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
 }
 
 .block {
@@ -611,6 +645,10 @@ video {
 
 .max-w-1340px {
   max-width: 1340px;
+}
+
+.max-w-90\% {
+  max-width: 90%;
 }
 
 .items-center {
@@ -638,19 +676,19 @@ video {
   font-family: IBM Plex Sans, sans-serif;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-medium {
@@ -681,16 +719,56 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:flex {
+  .tablet\:mt-4 {
+    margin-top: 1rem;
+  }
+
+  .tablet\:mt-6 {
+    margin-top: 1.5rem;
+  }
+}
+
+@media (min-width: 980px) {
+  .laptop\:flex {
     display: flex;
   }
 
-  .md\:max-w-1340px {
+  .laptop\:hidden {
+    display: none;
+  }
+
+  .laptop\:max-w-1340px {
     max-width: 1340px;
   }
 
-  .md\:text-xl {
+  .laptop\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 768px) {
+  @media (min-width: 1400px) {
+    .tablet\:desktop\:mt-6 {
+      margin-top: 1.5rem;
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  .desktop\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .desktop\:mt-6 {
+    margin-top: 1.5rem;
+  }
+
+  .desktop\:mt-9 {
+    margin-top: 2.25rem;
+  }
+
+  .desktop\:max-w-1340px {
+    max-width: 1340px;
   }
 }
