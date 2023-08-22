@@ -605,6 +605,10 @@ video {
   display: none;
 }
 
+.w-300px {
+  width: 300px;
+}
+
 .max-w-1340px {
   max-width: 1340px;
 }
