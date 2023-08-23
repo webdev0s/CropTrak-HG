@@ -754,6 +754,19 @@ video {
   background-color: rgb(254 254 254 / var(--tw-bg-opacity));
 }
 
+.bg-globe-pattern {
+  background-image: url(https://staging3.croptrak.com/wp-content/uploads/2023/08/bg-about.svg);
+}
+
+.bg-mobile-position {
+  background-position: center top 2%;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .pb-10px {
   padding-bottom: 10px;
 }

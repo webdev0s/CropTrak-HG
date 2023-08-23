@@ -4,7 +4,10 @@ module.exports = {
   theme: {
     extend: {   
       backgroundImage: {
-        'globe-pattern': "url('./')"
+        'globe-pattern': "url(https://staging3.croptrak.com/wp-content/uploads/2023/08/bg-about.svg)"
+      },
+      backgroundPosition: {
+        'mobile-position': 'center top 2%'
       },
       colors:{
       'primary-white': '#FEFEFE',
