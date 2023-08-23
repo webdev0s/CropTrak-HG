@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../../dist/output.css">
+  <link rel="stylesheet" href="../dist/output.css">
 </head>
 <body>
   <header class="bg-primary-white">
@@ -62,7 +62,7 @@
         <p>Deploying CropTrak requires no coding experience and can easily consolidate paper forms, spreadsheets, legacy software, and real-time tracking. Our workflows integrate with your everyday tools and can easily be configured to match your current processes.</p>
       </div>
       <!-- Title of the List div -->
-      <div class="pt-6 font-primary-sans font-medium text-2xl max-w-80% pb-12 laptop:text-5xl laptop:leading-snug laptop:max-w-full">
+      <div class="pt-6 font-primary-sans font-medium text-2xl max-w-80% pb-75px laptop:text-5xl laptop:leading-snug laptop:max-w-full">
         <h2>Gain insights and protect your brand, from seed to sale</h2>
       </div>
       <div class="block tablet:flex justify-around desktop:hidden">
@@ -118,10 +118,14 @@
           </ul>
         </div>
       </div>
-      <!-- Infographic with the list -->
-      <div class="hidden desktop:block">
-        <!-- Icons div -->
-        <div class="flex justify-between max-w-80% items-center pb-6">
+    </div>   <!-- Container div end -->     
+    <div class="hidden desktop:block ">    <!-- Line (div outside of container)-->
+      <!-- border container -->
+      <div class="border-b-4 border-black mr-23 relative">
+        <span class="after:absolute after:w-30px after:h-30px after:-right-14px after:border-r-4 after:border-b-4 after:border-black after:-bottom-4 after:rotate-45 after:-translate-x-50%">
+        </span>
+        <!-- image container with flex -->
+        <div class="flex items-center pl-14 justify-between max-w-85% pb-38px ">
           <div class="w-11">
             <img src="img/time-leaficon.png" alt="">
           </div>
@@ -135,16 +139,57 @@
             <img src="img/time-trace track.png" alt="">
           </div>
         </div>
-
       </div>
-    </div>        
-    <!-- Line div -->
-        <div class="hidden relative desktop:block">
-            <img class="w-93%" src="img/Line 1.png" alt="">
-            <span class="inline after:absolute after:w-30px after:h-30px after:left-arrowspc after:border-r-4 after:border-b-4 after:border-black after:-top-3 after:rotate-45 after:-translate-x-50%">
-
-            </span>
+      <!-- grid content -->
+      <div class="hidden desktop:grid grid-cols-4 justify-items-end w-full  text-primary-night">
+        <div class="col-span-1 place-self-start relative ml-14">
+          <span class="before:absolute before:top-0 before:left-18px before:w-2px before:h-6 before:bg-black"></span>
+          <ul class="font-primary-sans pl-5 pt-10 pb-20 hover:text-primary-green transition duration-300">
+            <h3 class="font-medium text-xl">Plan, Plant, and Grow</h3>
+            <li class="text-lg pt-5">— Field & Asset Management</li>
+            <li class="text-lg">— Trials Management</li>
+            <li class="text-lg">— Digital Contracting</li>
+            <li class="text-lg">— Field & Production Management</li>
+            <li class="text-lg">— Supply Planning & Allocation</li>
+          </ul>
         </div>
+        <div class="col-span-1 place-self-start pl-9 pt-10 relative">
+          <span class="before:absolute before:top-0 before:left-30px before:w-2px before:h-6 before:bg-black"></span>
+          <ul class="font-primary-sans hover:text-primary-green transition duration-300">
+            <h3 class="font-medium text-xl">Harvest, Haul, and Deliver</h3>
+            <li class="text-lg pt-5">— Automated Data Capture</li>
+            <li class="text-lg">— Digital Contracting</li>
+            <li class="text-lg">— Logistics Management</li>
+          </ul>
+        </div>
+        <div class="col-span-1 place-self-start pl-7 pt-10 relative">
+          <span class="before:absolute before:top-0 before:left-23px before:w-2px before:h-6 before:bg-black"></span>
+          <ul class="font-primary-sans hover:text-primary-green transition duration-300">
+            <h3 class="font-medium text-xl">Weigh, Grade, and Pay</h3>
+            <li class="text-lg pt-5">— Weights, Grades & Payments</li>
+            <li class="text-lg">— ERP Integration</li>
+            <li class="text-lg">— Compliance & Audit Reporting</li>
+          </ul>
+        </div>
+        <div class="col-span-1 place-self-start pl-5 pt-10 relative">
+          <span class="before:absolute before:top-0 before:left-23px before:w-2px before:h-6 before:bg-black"></span>
+          <ul class="font-primary-sans hover:text-primary-green transition duration-300">
+            <h3 class="font-medium text-xl">Track, Trace and Tell</h3>
+            <li class="text-lg pt-5">— ESG Survey Management</li>
+            <li class="text-lg">— Data Insights & Analytics</li>
+          </ul>
+        </div>
+      </div> <!-- grid content end-->
+    </div> <!-- outside of container end-->
+    <div class="bg-primary-gray"> <!-- background container -->
+      <div class="max-w-90% mx-auto desktop:max-w-1340px">     <!-- New container -->
+        <div class="grid text-primary-night">  <!-- section div (grid container)-->
+          <div class="font-primary-serif text-xl"> <!-- paragraph-->
+            <p> Our expert team has successfully deployed CropTrak for multiple Fortune 500 F&A companies, helping them evaluate, digitize, and simplify their existing data management systems </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
   <div class="pt-20">
     espacing

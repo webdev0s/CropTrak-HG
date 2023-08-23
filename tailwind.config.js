@@ -2,7 +2,10 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {        
+    extend: {   
+      backgroundImage: {
+        'globe-pattern': "url('./')"
+      },
       colors:{
       'primary-white': '#FEFEFE',
       'primary-green':'#78B96D',
@@ -26,15 +29,24 @@ module.exports = {
       spacing: {
         'arrowspc': 'calc(100% - 150px)',
         '-50%': '-50%',
+        '18%': '18%',
         '32rem': '32rem',
+        '23': '5.75rem',
         '17': '4.2rem',
         '300px': '300px',
+        '75px': '75px',
+        '73px': '73px',
         '71px': '71px',
+        '69px': '69px',
+        '62px': '62px',
         '60px': '60px',
         '50px': '50px',
         '38px': '38px',
         '30px': '30px',
+        '25px': '25px',
         '23px': '23px',
+        '18px': '18px',
+        '14px': '14px',
         '10px': '10px',
         '5px': '5px',
         '3px': '3px',
@@ -47,6 +59,7 @@ module.exports = {
         '1340px': '1340px',
         '95%' : '95%',
         '90%' : '90%',
+        '85%' : '85%',
         '80%' : '80%',
         '75%' : '75%',
         '300px': '300px',
@@ -56,6 +69,7 @@ module.exports = {
       },
       minWidth:{
         '1400px': '1400px',
+        '85%' : '85%',
         '300px': '300px',
       },
       screens: {
