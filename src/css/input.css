@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.layoutDesktopH2 {
+  @apply mr-300px font-sans text-7xl;
+}
