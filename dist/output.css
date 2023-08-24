@@ -702,10 +702,6 @@ video {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 .items-center {
   align-items: center;
 }
@@ -738,16 +734,8 @@ video {
   border-bottom-width: 4px;
 }
 
-.border-t {
-  border-top-width: 1px;
-}
-
-.border-t-4 {
-  border-top-width: 4px;
-}
-
-.border-t-2 {
-  border-top-width: 2px;
+.border-t-3px {
+  border-top-width: 3px;
 }
 
 .border-black {
@@ -774,6 +762,10 @@ video {
   background-image: url(https://staging3.croptrak.com/wp-content/uploads/2023/08/bg-about.svg);
 }
 
+.bg-cover {
+  background-size: cover;
+}
+
 .bg-mobile-position {
   background-position: center top 2%;
 }
@@ -782,23 +774,16 @@ video {
   background-repeat: no-repeat;
 }
 
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
 .pb-10px {
   padding-bottom: 10px;
+}
+
+.pb-12 {
+  padding-bottom: 3rem;
+}
+
+.pb-145px {
+  padding-bottom: 145px;
 }
 
 .pb-2 {
@@ -819,6 +804,10 @@ video {
 
 .pb-75px {
   padding-bottom: 75px;
+}
+
+.pb-8 {
+  padding-bottom: 2rem;
 }
 
 .pl-14 {
@@ -845,6 +834,14 @@ video {
   padding-top: 2.5rem;
 }
 
+.pt-16 {
+  padding-top: 4rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
 .pt-20 {
   padding-top: 5rem;
 }
@@ -859,26 +856,6 @@ video {
 
 .pt-71px {
   padding-top: 71px;
-}
-
-.pt-12 {
-  padding-top: 3rem;
-}
-
-.pb-12 {
-  padding-bottom: 3rem;
-}
-
-.pb-5 {
-  padding-bottom: 1.25rem;
-}
-
-.pb-8 {
-  padding-bottom: 2rem;
-}
-
-.pt-2 {
-  padding-top: 0.5rem;
 }
 
 .text-end {
@@ -903,6 +880,11 @@ video {
   line-height: 2.5rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -913,26 +895,12 @@ video {
   line-height: 1.75rem;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.font-light {
+  font-weight: 300;
 }
 
 .font-medium {
   font-weight: 500;
-}
-
-.font-semibold {
-  font-weight: 600;
-}
-
-.font-light {
-  font-weight: 300;
 }
 
 .uppercase {
@@ -947,8 +915,16 @@ video {
   line-height: 1.25;
 }
 
+.leading-130\% {
+  line-height: 130%;
+}
+
+.tracking-tighter {
+  letter-spacing: -0.05em;
+}
+
 .tracking-wide {
-  letter-spacing: 0.025em;
+  letter-spacing: 0.03rem;
 }
 
 .text-primary-green {
@@ -1077,6 +1053,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .tablet\:ml-auto {
+    margin-left: auto;
+  }
+
   .tablet\:mr-16 {
     margin-right: 4rem;
   }
@@ -1097,14 +1077,30 @@ video {
     display: none;
   }
 
-  .tablet\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
+  .tablet\:w-full {
+    width: 100%;
+  }
+
+  .tablet\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .tablet\:text-56px {
+    font-size: 56px;
+  }
+
+  .tablet\:text-custom {
+    font-size: 1.3rem;
   }
 
   .tablet\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .tablet\:leading-normal {
+    line-height: 1.5;
   }
 
   .tablet\:leading-tight {
@@ -1117,8 +1113,8 @@ video {
 }
 
 @media (min-width: 980px) {
-  .laptop\:ml-auto {
-    margin-left: auto;
+  .laptop\:mb-10 {
+    margin-bottom: 2.5rem;
   }
 
   .laptop\:flex {
@@ -1129,24 +1125,52 @@ video {
     display: none;
   }
 
-  .laptop\:w-300px {
-    width: 300px;
+  .laptop\:w-text {
+    width: 70%;
+  }
+
+  .laptop\:w-textl {
+    width: 73%;
+  }
+
+  .laptop\:w-80 {
+    width: 20rem;
+  }
+
+  .laptop\:w-80\% {
+    width: 80%;
   }
 
   .laptop\:min-w-300px {
     min-width: 300px;
   }
 
-  .laptop\:max-w-75\% {
-    max-width: 75%;
+  .laptop\:max-w-full {
+    max-width: 100%;
   }
 
   .laptop\:max-w-80\% {
     max-width: 80%;
   }
 
-  .laptop\:max-w-full {
-    max-width: 100%;
+  .laptop\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .laptop\:gap-8 {
+    gap: 2rem;
+  }
+
+  .laptop\:gap-8\% {
+    gap: 8%;
+  }
+
+  .laptop\:pt-8 {
+    padding-top: 2rem;
+  }
+
+  .laptop\:text-left {
+    text-align: left;
   }
 
   .laptop\:text-2xl {
@@ -1169,12 +1193,24 @@ video {
     line-height: 1.75rem;
   }
 
-  .laptop\:leading-relaxed {
-    line-height: 1.625;
+  .laptop\:leading-9 {
+    line-height: 2.25rem;
+  }
+
+  .laptop\:leading-normal {
+    line-height: 1.5;
   }
 
   .laptop\:leading-snug {
     line-height: 1.375;
+  }
+
+  .laptop\:leading-130\% {
+    line-height: 130%;
+  }
+
+  .laptop\:tracking-wide {
+    letter-spacing: 0.03rem;
   }
 }
 
@@ -1207,3 +1243,4 @@ video {
     max-width: 1340px;
   }
 }
+

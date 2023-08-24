@@ -23,11 +23,11 @@
             <!-- flex container -->
           <div class="flex">          
             <!-- logo image div -->
-            <div class="laptop:min-w-300px block">
-              <a href="index.html"><img class="laptop:w-300px" src="img/Logo.png" alt="CropTrak Logo"></a>
+            <div class="laptop:min-w-300px">
+              <a href="index.html"><img class="" src="img/Logo.png" alt="CropTrak Logo"></a>
             </div>
             <!-- hamburger menu -->
-            <div class="flex ml-auto items-center laptop:hidden">
+            <div class="block ml-auto tablet:ml-auto items-center laptop:hidden">
               <i class="fa-solid fa-bars fa-lg mx-2"></i>
             </div>            
             <!-- nav bar -->  
@@ -44,21 +44,21 @@
     <!-- main container -->
     <div class="max-w-90% desktop:max-w-1340px mx-auto text-primary-night ">
       <!-- H1 div -->
-      <div class="mt-60px text-4xl tablet:text-6xl font-primary-sans leading-tight tracking-wide pb-10px mb-30px desktop:mb-38px tablet:leading-tight tablet:tracking-normal laptop:text-7xl laptop:max-w-80% laptop:leading-snug">
+      <div class="mt-60px text-4xl tablet:text-56px laptop:leading-130% font-primary-sans leading-tight tracking-wide pb-10px mb-30px desktop:mb-38px tablet:leading-tight tablet:tracking-normal laptop:text-7xl tablet:w-full laptop:max-w-80% laptop:tracking-wide">
         <h1>
           Harvest the rewards of healthier supply chain management
         </h1>
       </div>
       <!-- P div -->
-      <div class="text-primary-night text-lg font-primary-serif leading-normal tracking-wide pb-10px tablet:text-xl laptop:max-w-75% laptop:text-2xl laptop:leading-relaxed">
-        <p>Digitally define, document, and manage your entire supply chain with our adaptive platform, created solely and specifically to meet the unique needs of the Food and Agriculture industry. End the confusion, shed light on unseen challenges, and realize a new level of efficiency, transparency, and opportunity.</p>
+      <div class="text-primary-night text-lg font-primary-serif leading-normal tracking-wide tablet:text-xl  laptop:text-2xl laptop:w-text laptop:leading-9">
+        <p class=""">Digitally define, document, and manage your entire supply chain with our adaptive platform, created solely and specifically to meet the unique needs of the Food and Agriculture industry. End the confusion, shed light on unseen challenges, and realize a new level of efficiency, transparency, and opportunity.</p>
       </div>
       <!-- Image div -->
       <div class="pt-71px mb-12 desktop:mb-38px">
-        <iframe src="https://player.vimeo.com/video/853721404?h=7622dea853&amp;autoplay=1&amp;loop=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;controls=0&amp;muted=1&amp;loop=1" class="w-full aspect-video" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" name="fitvid0" data-ready="true"></iframe>
+        <iframe src="https://player.vimeo.com/video/853721404?h=7622dea853&amp;autoplay=1&amp;loop=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;controls=0&amp;muted=1&amp;loop=1" class="w-full aspect-video"></iframe>
       </div>
       <!-- P div -->
-      <div class="text-primary-night text-lg font-primary-serif leading-normal tracking-wide pb-6 tablet:text-xl laptop:max-w-75% laptop:text-2xl laptop:leading-relaxed laptop:ml-auto">
+      <div class="text-primary-night text-lg font-primary-serif leading-normal tracking-wide pb-6 tablet:text-xl laptop:w-textl laptop:text-2xl laptop:leading-normal laptop:tracking-wide laptop:text-left ml-auto ">
         <p>Deploying CropTrak requires no coding experience and can easily consolidate paper forms, spreadsheets, legacy software, and real-time tracking. Our workflows integrate with your everyday tools and can easily be configured to match your current processes.</p>
       </div>
       <!-- Title of the List div -->
@@ -155,7 +155,7 @@
         </div>
         <div class="col-span-1 place-self-start pl-9 pt-10 relative">
           <span class="before:absolute before:top-0 before:left-30px before:w-2px before:h-6 before:bg-black"></span>
-          <ul class="font-primary-sans hover:text-primary-green transition duration-300">
+          <ul class="font-primary-sans hover:text-primary-green transition duration-300 tracking-tighter">
             <h3 class="font-medium text-xl">Harvest, Haul, and Deliver</h3>
             <li class="text-lg pt-5">— Automated Data Capture</li>
             <li class="text-lg">— Digital Contracting</li>
@@ -182,44 +182,53 @@
       </div> <!-- grid content end-->
     </div> <!-- outside of container end-->
     <div class="max-w-90% mx-auto desktop:max-w-1340px pb-20"> <!-- link container -->
-      <a class="uppercase font-primary-sans font-medium" href="">Learn more about our solutions →</a>
+      <a class="uppercase font-primary-sans font-medium laptop:text-xl" href="">Learn more about our solutions →</a>
     </div>
-    <div class="bg-primary-gray bg-globe-pattern py-20 bg-mobile-position bg-no-repeat"> <!-- background container -->
-      <div class="max-w-90% mx-auto desktop:max-w-1340px">     <!-- New section container -->
-        <div class="grid text-primary-night">  <!-- section div (grid container)-->
-          <div class="font-primary-serif text-xl pb-12"> <!-- paragraph-->
-            <p> Our expert team has successfully deployed CropTrak for multiple Fortune 500 F&A companies, helping them evaluate, digitize, and simplify their existing data management systems </p>
+    <div class="bg-primary-gray laptop:pt-8"> <!-- container do container do container...-->
+      <div class="bg-globe-pattern pt-16 bg-mobile-position bg-cover bg-no-repeat"> <!-- background container -->
+        <div class="max-w-90% mx-auto desktop:max-w-1340px">     <!-- New section container -->
+          <div class="grid laptop:gap-8% laptop:grid-cols-2 text-primary-night">  <!-- section div (grid container)-->
+            <div class="">
+              <div class="font-primary-serif text-xl tablet:text-custom tablet:leading-normal pb-12 laptop:text-2xl laptop:leading-normal laptop:tracking-wide laptop:mb-10"> <!-- paragraph-->
+                <p> Our expert team has successfully deployed CropTrak for multiple Fortune 500 F&A companies, helping them evaluate, digitize, and simplify their existing data management systems. </p>
+              </div>
+              <div class="uppercase font-primary-sans font-medium pb-8 laptop:text-xl"> <!-- link div-->
+                <a class="hover-line" href="">Learn more about CropTrak →</a>
+              </div>
+            </div>
+            <div class="">
+              <div class="pt-2 pb-20 flex justify-between border-t-3px border-black items-center"> <!-- inside grid container-->
+                <div class="font-primary-sans font-medium tablet:text-2xl">
+                  <p>Countries</p>
+                </div>
+                <div>
+                  <p class="font-primary-sans font-light text-5xl">66</p>
+                </div>
+              </div>
+              <div class="pt-2 pb-20 flex justify-between border-t-3px border-black items-center"> <!-- inside grid container-->
+                <div class="font-primary-sans font-medium tablet:text-2xl">
+                  <p>Active <br class="block tablet:hidden">Languages</p>
+                </div>
+                <div>
+                  <p class="font-primary-sans font-light text-5xl">8</p>
+                </div>
+              </div>
+              <div class="pt-2 flex pb-145px justify-between border-t-3px border-black items-center"> <!-- inside grid container-->
+                <div class="font-primary-sans font-medium tablet:text-2xl">
+                  <p>Different Crops</p>
+                </div>
+                <div>
+                  <p class="font-primary-sans font-light text-5xl">73</p>
+                </div>
+            </div>
+            </div>
           </div>
-          <div class="uppercase font-primary-sans font-medium pb-8"> <!-- link div-->
-            <a href="">Learn more about CropTrak →</a>
-          </div>
-          <div class="pt-2 pb-20 flex justify-between border-t-2 border-black items-center"> <!-- inside grid container-->
-            <div class="font-primary-sans font-medium">
-              <p>Countries</p>
-            </div>
-            <div>
-              <p class="font-primary-sans font-light text-5xl">66</p>
-            </div>
-          </div>
-          <div class="pt-2 pb-20 flex justify-between border-t-2 border-black items-center"> <!-- inside grid container-->
-            <div class="font-primary-sans font-medium">
-              <p>Active <br class="block tablet:hidden">Languages</p>
-            </div>
-            <div>
-              <p class="font-primary-sans font-light text-5xl">8</p>
-            </div>
-          </div>
-          <div class="pt-2 pb-20 flex justify-between border-t-2 border-black items-center"> <!-- inside grid container-->
-            <div class="font-primary-sans font-medium">
-              <p>Different Crops</p>
-            </div>
-            <div>
-              <p class="font-primary-sans font-light text-5xl">73</p>
-            </div>
-          </div>
-        </div>
-      </div> <!-- new section container end-->
-    </div> <!-- new section  BACKGROUND container end-->
+        </div> <!-- new section container end-->
+      </div> <!-- new section  BACKGROUND container end-->
+    </div> <!-- container do container do container end-->
+    <div>
+
+    </div>
   </main>
   <div class="pt-20">
     espacing

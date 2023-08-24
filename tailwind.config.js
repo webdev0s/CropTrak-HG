@@ -24,19 +24,34 @@ module.exports = {
         'primary-sans': ['IBM Plex Sans', 'sans-serif'],
         'primary-serif': ['IBM Plex Serif', 'serif'],
       },
+      fontSize: {
+        'custom':'1.3rem',
+        '56px' : '56px',
+      },
+      borderWidth:{
+        '3px': '3px',
+      },
       lineHeight: {
+        '130%': '130%',
         '150%': '150%',
         'extra-loose': '2.5',
         '12': '3rem',
       },
+      letterSpacing: {
+        'wide' : '0.03rem'
+      },
       spacing: {
         'arrowspc': 'calc(100% - 150px)',
+        'linecustom': '2.25rem',
         '-50%': '-50%',
         '18%': '18%',
+        '16%': '16%',
+        '8%': '8%',
         '32rem': '32rem',
         '23': '5.75rem',
         '17': '4.2rem',
         '300px': '300px',
+        '145px': '145px',
         '75px': '75px',
         '73px': '73px',
         '71px': '71px',
@@ -60,7 +75,9 @@ module.exports = {
       },
       maxWidth: {
         '1340px': '1340px',
-        '95%' : '95%',
+        '938px': '938px',
+        '95%' : '95%', 
+        'custom': '90.17%',
         '90%' : '90%',
         '85%' : '85%',
         '80%' : '80%',
@@ -69,6 +86,12 @@ module.exports = {
       },
       width: {
         '93%' : '93%',
+        '815.844px': '815.844px',
+        '72.27%': '850.812px',
+        '400px': '400px',
+        '80%' : '80%',
+        'text' : '70%',
+        'textl': '73%',
       },
       minWidth:{
         '1400px': '1400px',
