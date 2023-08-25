@@ -27,6 +27,7 @@ module.exports = {
       fontSize: {
         'custom':'1.3rem',
         '56px' : '56px',
+        '19px': '19px',
       },
       borderWidth:{
         '3px': '3px',
@@ -38,7 +39,8 @@ module.exports = {
         '12': '3rem',
       },
       letterSpacing: {
-        'wide' : '0.03rem'
+        'wide' : '0.03rem',
+        'widecustom' : '0.03125rem'
       },
       spacing: {
         'arrowspc': 'calc(100% - 150px)',
@@ -88,6 +90,7 @@ module.exports = {
         '93%' : '93%',
         '815.844px': '815.844px',
         '72.27%': '850.812px',
+        '72.07%': '72.07%',
         '400px': '400px',
         '80%' : '80%',
         'text' : '70%',
