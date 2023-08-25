@@ -534,6 +534,11 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mx-35px {
   margin-left: 35px;
   margin-right: 35px;
@@ -544,9 +549,9 @@ video {
   margin-right: 1rem;
 }
 
-.mx-50px {
-  margin-left: 50px;
-  margin-right: 50px;
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .my-2 {
@@ -559,14 +564,24 @@ video {
   margin-bottom: 0.625rem;
 }
 
-.my-auto {
-  margin-top: auto;
-  margin-bottom: auto;
+.mb-11 {
+  margin-bottom: 2.75rem;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
+.mb-11\.2px {
+  margin-bottom: 11.2px;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.mb-30px {
+  margin-bottom: 30px;
+}
+
+.mb-56px {
+  margin-bottom: 56px;
 }
 
 .ml-35px {
@@ -577,36 +592,64 @@ video {
   margin-left: 1rem;
 }
 
-.mt-72px {
-  margin-top: 72px;
-}
-
-.mt-9 {
-  margin-top: 2.25rem;
-}
-
-.mt-11 {
-  margin-top: 2.75rem;
-}
-
 .ml-auto {
   margin-left: auto;
+}
+
+.mr-20 {
+  margin-right: 5rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mt-60px {
+  margin-top: 60px;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
 }
 
 .flex {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .hidden {
   display: none;
 }
 
-.h-67px {
-  height: 67px;
+.aspect-video {
+  aspect-ratio: 16 / 9;
 }
 
 .w-12 {
   width: 3rem;
+}
+
+.w-90px {
+  width: 90px;
 }
 
 .w-full {
@@ -617,28 +660,16 @@ video {
   max-width: 90%;
 }
 
-.content-center {
-  align-content: center;
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-.content-end {
-  align-content: flex-end;
-}
-
-.content-between {
-  align-content: space-between;
-}
-
-.content-around {
-  align-content: space-around;
+.grid-rows-4 {
+  grid-template-rows: repeat(4, minmax(0, 1fr));
 }
 
 .items-center {
   align-items: center;
-}
-
-.justify-end {
-  justify-content: flex-end;
 }
 
 .justify-between {
@@ -653,6 +684,11 @@ video {
   border-bottom-width: 4px;
 }
 
+.border-primary-green {
+  --tw-border-opacity: 1;
+  border-color: rgb(120 185 109 / var(--tw-border-opacity));
+}
+
 .border-transparent {
   border-color: transparent;
 }
@@ -662,8 +698,14 @@ video {
   border-bottom-color: rgb(120 185 109 / var(--tw-border-opacity));
 }
 
-.p-6 {
-  padding: 1.5rem;
+.bg-primary-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 254 254 / var(--tw-bg-opacity));
+}
+
+.bg-primary-night {
+  --tw-bg-opacity: 1;
+  background-color: rgb(35 31 32 / var(--tw-bg-opacity));
 }
 
 .px-4 {
@@ -676,12 +718,56 @@ video {
   padding-bottom: 1rem;
 }
 
+.pb-10px {
+  padding-bottom: 10px;
+}
+
+.pb-19\.2px {
+  padding-bottom: 19.2px;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
+.pl-16px {
+  padding-left: 16px;
+}
+
+.pt-30px {
+  padding-top: 30px;
+}
+
+.pt-71px {
+  padding-top: 71px;
+}
+
+.text-end {
+  text-align: end;
+}
+
+.font-primary-sans {
+  font-family: IBM Plex Sans, sans-serif;
+}
+
+.font-primary-serif {
+  font-family: IBM Plex Serif, serif;
+}
+
 .font-sans {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.font-serif {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+.text-17px {
+  font-size: 17px;
+}
+
+.text-18px {
+  font-size: 18px;
+}
+
+.text-19px {
+  font-size: 19px;
 }
 
 .text-2xl {
@@ -689,9 +775,9 @@ video {
   line-height: 2rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-base {
@@ -704,16 +790,46 @@ video {
   line-height: 1.75rem;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
 .font-semibold {
   font-weight: 600;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .leading-150\% {
   line-height: 150%;
 }
 
+.leading-normal {
+  line-height: 1.5;
+}
+
+.leading-tight {
+  line-height: 1.25;
+}
+
 .tracking-wide {
-  letter-spacing: 0.025em;
+  letter-spacing: 0.03rem;
+}
+
+.tracking-widecustom {
+  letter-spacing: 0.03125rem;
 }
 
 .text-primary-green {
@@ -755,6 +871,10 @@ video {
   color: rgb(120 185 109 / var(--tw-text-opacity));
 }
 
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+
 @media (min-width: 768px) {
   .md\:mx-50px {
     margin-left: 50px;
@@ -779,21 +899,46 @@ video {
     padding-bottom: 1.5rem;
   }
 
-  .md\:text-7xl {
-    font-size: 4.5rem;
+  .tablet\:mt-4 {
+    margin-top: 1rem;
+  }
+
+  .tablet\:mt-6 {
+    margin-top: 1.5rem;
+  }
+
+  .tablet\:text-19px {
+    font-size: 19px;
+  }
+
+  .tablet\:text-6xl {
+    font-size: 3.75rem;
     line-height: 1;
   }
 
-  .tablet\:block {
-    display: block;
+  .tablet\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
-  .tablet\:hidden {
-    display: none;
+  .tablet\:leading-tight {
+    line-height: 1.25;
+  }
+
+  .tablet\:tracking-normal {
+    letter-spacing: 0em;
+  }
+
+  .tablet\:tracking-widecustom {
+    letter-spacing: 0.03125rem;
   }
 }
 
 @media (min-width: 980px) {
+  .laptop\:ml-auto {
+    margin-left: auto;
+  }
+
   .laptop\:flex {
     display: flex;
   }
@@ -802,8 +947,64 @@ video {
     display: none;
   }
 
+  .laptop\:w-300px {
+    width: 300px;
+  }
+
+  .laptop\:min-w-300px {
+    min-width: 300px;
+  }
+
+  .laptop\:max-w-73\% {
+    max-width: 73%;
+  }
+
+  .laptop\:max-w-75\% {
+    max-width: 75%;
+  }
+
+  .laptop\:max-w-80\% {
+    max-width: 80%;
+  }
+
+  .laptop\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .laptop\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
+  }
+
+  .laptop\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .laptop\:leading-relaxed {
+    line-height: 1.625;
+  }
+
+  .laptop\:leading-snug {
+    line-height: 1.375;
+  }
+}
+
+@media (min-width: 1400px) {
+  .desktop\:mb-38px {
+    margin-bottom: 38px;
+  }
+
+  .desktop\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .desktop\:mt-9 {
+    margin-top: 2.25rem;
+  }
+
+  .desktop\:max-w-1340px {
+    max-width: 1340px;
   }
 }
