@@ -17,4 +17,8 @@
       background-size: 100% var(--thickness);
     }
   }
+
+  .animate-menu {
+    animation: show-up .5s forwards
+  }
 }

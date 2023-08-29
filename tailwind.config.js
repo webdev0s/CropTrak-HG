@@ -19,6 +19,9 @@ module.exports = {
       'primary-gold': '#DBA712',
       'primary-taupe': '#D1CBC0',
       'primary-clay': '#873331',
+      'primary-dropdown': '#666',
+      'secondary-dropdown': '#999',
+      'bg-dropdown': '#F9F9F9',
     },
       fontFamily: {
         'primary-sans': ['IBM Plex Sans', 'sans-serif'],
@@ -47,6 +50,7 @@ module.exports = {
         'arrowspc': 'calc(100% - 150px)',
         'linecustom': '2.25rem',
         '-50%': '-50%',
+        'half': '50%',
         '18%': '18%',
         '16%': '16%',
         '8%': '8%',
@@ -93,6 +97,7 @@ module.exports = {
       },
       width: {
         '93%' : '93%',
+        '90%' : '90%',
         '815.844px': '815.844px',
         '72.27%': '850.812px',
         '72.07%': '72.07%',
@@ -100,6 +105,10 @@ module.exports = {
         '80%' : '80%',
         'text' : '70%',
         'textl': '73%',
+        '200px': '200px',
+      },
+      height: {
+        '108px': '108px',
       },
       minWidth:{
         '1400px': '1400px',

@@ -21,15 +21,33 @@
       <!-- Second line - Logo and nav CONTAINER -->
       <div class="block mx-auto mt-7 tablet:mt-6 desktop:mt-9 max-w-90% desktop:max-w-1340px items-center">
             <!-- flex container -->
-          <div class="flex">          
+          <div class="flex items-center justify-between">          
             <!-- logo image div -->
             <div class="laptop:min-w-300px">
               <a href="index.html"><img class="" src="img/Logo.png" alt="CropTrak Logo"></a>
             </div>
-            <!-- hamburger menu -->
-            <div class="block ml-auto tablet:ml-auto items-center laptop:hidden">
-              <i class="fa-solid fa-bars fa-lg mx-2"></i>
-            </div>            
+            <div class="laptop:hidden"> <!-- dropdown menu-->
+              <!-- hamburger icon -->
+              <div class="ml-auto tablet:ml-auto items-center" id="dropdown">
+                <i class="fa-solid fa-bars fa-lg mr-4"></i>
+              </div>
+              <div class="hidden" id="menu">
+                <ul class="absolute text-2xl bg-white text-primary-dropdown tracking-wide mt-5 border border-primary-gray border-t-primary-green border-t-3px shadow-md z-50 w-90% left-half -translate-x-50% p-5%">
+                  <li class="py-10px px-5% border-b border-primary-gray hover:bg-bg-dropdown hover:text-secondary-dropdown transition duration-300">
+                    <a  href="#">Solutions</a>
+                  </li>
+                  <li class="py-10px px-5% border-b border-primary-gray hover:bg-bg-dropdown hover:text-secondary-dropdown transition duration-300">
+                    <a href="#">Approach</a>
+                  </li>
+                  <li class="py-10px px-5% border-b border-primary-gray hover:bg-bg-dropdown hover:text-secondary-dropdown transition duration-300">
+                    <a href="#">About</a>
+                  </li>
+                  <li class="py-10px px-5% border-b border-primary-gray hover:bg-bg-dropdown hover:text-secondary-dropdown transition duration-300">
+                    <a href="#">Media</a>
+                  </li>
+                </ul>
+              </div>
+            </div>          
             <!-- nav bar -->  
             <nav class="hidden laptop:flex ml-auto items-center">
               <a class="font-primary-sans font-medium text-primary-night text-2xl ml-60px mr-71px hover:text-primary-green hover-line" href="#">Solutions</a>
@@ -196,13 +214,13 @@
                 <a class="hover-line" href="">Learn more about CropTrak →</a>
               </div>
             </div>
-            <div class="">
+            <div class="js-scroll invisible">
               <div class="pt-2 pb-20 flex justify-between border-t-3px border-black items-center"> <!-- inside grid container-->
                 <div class="font-primary-sans font-medium tablet:text-2xl">
                   <p>Countries</p>
                 </div>
                 <div>
-                  <p class="font-primary-sans font-light text-5xl">66</p>
+                  <p class="font-primary-sans font-light text-5xl" id="number1">66</p>
                 </div>
               </div>
               <div class="pt-2 pb-20 flex justify-between border-t-3px border-black items-center"> <!-- inside grid container-->
@@ -210,15 +228,15 @@
                   <p>Active <br class="block tablet:hidden">Languages</p>
                 </div>
                 <div>
-                  <p class="font-primary-sans font-light text-5xl">8</p>
+                  <p class="font-primary-sans font-light text-5xl" id="number2">8</p>
                 </div>
               </div>
               <div class="pt-2 flex pb-145px justify-between border-t-3px border-black items-center"> <!-- inside grid container-->
-                <div class="font-primary-sans font-medium tablet:text-2xl">
+                <div class="font-primary-sans font-medium tablet:text-2xl" >
                   <p>Different Crops</p>
                 </div>
                 <div>
-                  <p class="font-primary-sans font-light text-5xl">73</p>
+                  <p class="font-primary-sans font-light text-5xl" id="number3">73</p>
                 </div>
             </div>
             </div>
@@ -242,8 +260,12 @@
       <div class="text-primary-night text-2xl tablet:text-3xl  laptop:text-5xl tracking-widecustom font-medium ">
         <h2>Our trusted clients</h2>
       </div>
-      <div id="slide">
-
+      <div id="slide" class="transition-transform ease-in-out duration-500 translate-x-0">
+        <div id="slide-first" class="flex overflow-hidden">
+          <img class="w-200px object-contain" src="img/brand-1.png" alt="">
+          <img class="object-cover h-300px w-300px" src="img/brand-2.png" alt="">
+          <img class="object-cover h-300px w-300px" src="img/brand-3.png" alt="">
+        </div>
       </div>
     </aside>
   </main>
@@ -258,5 +280,6 @@
       espacing
     </div>
   </div>
+  <script src="./scripts/script.js"></script>
 </body>
 </html>
