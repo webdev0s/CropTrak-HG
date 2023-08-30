@@ -65,3 +65,51 @@ const interval3 = setInterval(() => {
 }, 20.54);
 };
 // fim contador
+
+// slider
+
+$('.slider').slick({
+  dots: false,
+  infinite: true,
+  speed: 700,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  arrows: true,
+  prevArrow: '<button type="button" class="slick-prev absolute -left-5 laptop:top-1/2 top-1/3  -translate-y-1/2 z-10"><i class="fas fa-arrow-left text-2xl"></i></button>',
+  nextArrow: '<button type="button" class="slick-next absolute -right-5 laptop:top-1/2 top-1/3 -translate-y-1/2 z-10"><i class="fas fa-arrow-right text-2xl"></i></button>', 
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        arrows: true,
+        dots: false,
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: true,
+      }
+    },
+    {
+      breakpoint: 501,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        arrows: true,
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+
+// fim slider
+
+
