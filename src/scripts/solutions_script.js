@@ -14,3 +14,12 @@ divTarget.forEach(element => {
     hoverEffectTwo.classList.add('hidden');  // Add hidden class only for this divpai's hover-effect
   });
 });
+
+// menu dropdown
+
+const dropdown = document.getElementById('dropdown');
+const menu = document.getElementById('menu');
+
+dropdown.addEventListener('click', function() {
+  menu.classList.toggle('hidden')
+});

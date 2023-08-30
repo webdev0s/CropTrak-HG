@@ -2,7 +2,7 @@ const dropdown = document.getElementById('dropdown');
 const menu = document.getElementById('menu');
 
 dropdown.addEventListener('click', function() {
-  menu.classList.toggle('hidden')
+  menu.classList.toggle('hidden');
 });
 
 // show div when user see it
