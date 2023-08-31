@@ -651,9 +651,8 @@ video {
   margin-right: auto;
 }
 
-.my-auto {
-  margin-top: auto;
-  margin-bottom: auto;
+.mb-10 {
+  margin-bottom: 2.5rem;
 }
 
 .mb-12 {
@@ -674,6 +673,14 @@ video {
 
 .mb-30px {
   margin-bottom: 30px;
+}
+
+.mb-32 {
+  margin-bottom: 8rem;
+}
+
+.mb-56px {
+  margin-bottom: 56px;
 }
 
 .mb-60px {
@@ -706,6 +713,10 @@ video {
 
 .mr-71px {
   margin-right: 71px;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .mt-2 {
@@ -796,8 +807,28 @@ video {
   width: 50%;
 }
 
+.max-w-100px {
+  max-width: 100px;
+}
+
+.max-w-115px {
+  max-width: 115px;
+}
+
+.max-w-133px {
+  max-width: 133px;
+}
+
+.max-w-180px {
+  max-width: 180px;
+}
+
 .max-w-595px {
   max-width: 595px;
+}
+
+.max-w-71px {
+  max-width: 71px;
 }
 
 .max-w-80\% {
@@ -812,8 +843,20 @@ video {
   max-width: 90%;
 }
 
+.max-w-91px {
+  max-width: 91px;
+}
+
 .max-w-95\% {
   max-width: 95%;
+}
+
+.max-w-full {
+  max-width: 100%;
+}
+
+.grow {
+  flex-grow: 1;
 }
 
 .-translate-x-50\% {
@@ -830,12 +873,24 @@ video {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.place-items-center {
+  place-items: center;
 }
 
 .items-end {
@@ -850,6 +905,10 @@ video {
   align-items: stretch;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -860,6 +919,10 @@ video {
 
 .justify-items-end {
   justify-items: end;
+}
+
+.gap-y-50px {
+  row-gap: 50px;
 }
 
 .place-self-start {
@@ -983,9 +1046,29 @@ video {
   padding-right: 5%;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.px-8\% {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
 .py-10px {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.px-7\% {
+  padding-left: 7%;
+  padding-right: 7%;
 }
 
 .pb-10 {
@@ -1014,6 +1097,10 @@ video {
 
 .pb-20 {
   padding-bottom: 5rem;
+}
+
+.pb-32 {
+  padding-bottom: 8rem;
 }
 
 .pb-38px {
@@ -1157,6 +1244,10 @@ video {
 
 .italic {
   font-style: italic;
+}
+
+.leading-36px {
+  line-height: 36px;
 }
 
 .leading-normal {
@@ -1364,12 +1455,20 @@ video {
     width: 100%;
   }
 
+  .tablet\:max-w-240px {
+    max-width: 240px;
+  }
+
   .tablet\:max-w-full {
     max-width: 100%;
   }
 
   .tablet\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .tablet\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .tablet\:gap-x-5 {
@@ -1460,8 +1559,20 @@ video {
     margin-bottom: 2.5rem;
   }
 
+  .laptop\:mb-24 {
+    margin-bottom: 6rem;
+  }
+
   .laptop\:mb-28 {
     margin-bottom: 7rem;
+  }
+
+  .laptop\:mb-52 {
+    margin-bottom: 13rem;
+  }
+
+  .laptop\:ml-auto {
+    margin-left: auto;
   }
 
   .laptop\:mt-20 {
@@ -1500,6 +1611,10 @@ video {
     min-width: 300px;
   }
 
+  .laptop\:max-w-45\% {
+    max-width: 45%;
+  }
+
   .laptop\:max-w-80\% {
     max-width: 80%;
   }
@@ -1510,6 +1625,10 @@ video {
 
   .laptop\:max-w-full {
     max-width: 100%;
+  }
+
+  .laptop\:max-w-smallcustom {
+    max-width: 21rem;
   }
 
   .laptop\:grid-cols-2 {
@@ -1562,6 +1681,14 @@ video {
     padding-top: 2rem;
   }
 
+  .laptop\:pt-69px {
+    padding-top: 69px;
+  }
+
+  .laptop\:pb-145px {
+    padding-bottom: 145px;
+  }
+
   .laptop\:text-left {
     text-align: left;
   }
@@ -1594,12 +1721,21 @@ video {
     line-height: 1.75rem;
   }
 
+  .laptop\:text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
   .laptop\:leading-130\% {
     line-height: 130%;
   }
 
   .laptop\:leading-150\% {
     line-height: 150%;
+  }
+
+  .laptop\:leading-62px {
+    line-height: 62px;
   }
 
   .laptop\:leading-9 {
@@ -1658,6 +1794,30 @@ video {
 
   .desktop\:max-w-full {
     max-width: 100%;
+  }
+
+  .desktop\:max-w-95\% {
+    max-width: 95%;
+  }
+
+  .desktop\:max-w-80\% {
+    max-width: 80%;
+  }
+
+  .desktop\:max-w-85\% {
+    max-width: 85%;
+  }
+
+  .desktop\:max-w-90\% {
+    max-width: 90%;
+  }
+
+  .desktop\:max-w-97\% {
+    max-width: 97%;
+  }
+
+  .desktop\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
   .desktop\:gap-x-8 {
