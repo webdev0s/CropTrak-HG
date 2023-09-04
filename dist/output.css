@@ -717,6 +717,14 @@ video {
   margin-bottom: 8rem;
 }
 
+.mb-38px {
+  margin-bottom: 38px;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .mb-40 {
   margin-bottom: 10rem;
 }
@@ -761,12 +769,20 @@ video {
   margin-top: 2.5rem;
 }
 
+.mt-14 {
+  margin-top: 3.5rem;
+}
+
 .mt-18px {
   margin-top: 18px;
 }
 
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-23 {
+  margin-top: 5.75rem;
 }
 
 .mt-28 {
@@ -799,6 +815,14 @@ video {
 
 .mt-9 {
   margin-top: 2.25rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mb-145px {
+  margin-bottom: 145px;
 }
 
 .block {
@@ -1281,6 +1305,14 @@ video {
   padding-top: 75px;
 }
 
+.pt-14 {
+  padding-top: 3.5rem;
+}
+
+.pt-23 {
+  padding-top: 5.75rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1374,6 +1406,14 @@ video {
   font-style: italic;
 }
 
+.leading-130\% {
+  line-height: 130%;
+}
+
+.leading-150\% {
+  line-height: 150%;
+}
+
 .leading-36px {
   line-height: 36px;
 }
@@ -1384,6 +1424,14 @@ video {
 
 .leading-tight {
   line-height: 1.25;
+}
+
+.\!leading-150\% {
+  line-height: 150% !important;
+}
+
+.\!leading-130\% {
+  line-height: 130% !important;
 }
 
 .tracking-custom {
@@ -1624,6 +1672,10 @@ video {
     margin-right: 0px;
   }
 
+  .tablet\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
   .tablet\:ml-auto {
     margin-left: auto;
   }
@@ -1646,6 +1698,10 @@ video {
 
   .tablet\:mt-6 {
     margin-top: 1.5rem;
+  }
+
+  .tablet\:mt-5 {
+    margin-top: 1.25rem;
   }
 
   .tablet\:inline {
@@ -1783,6 +1839,10 @@ video {
     line-height: 1.25;
   }
 
+  .tablet\:leading-130\% {
+    line-height: 130%;
+  }
+
   .tablet\:tracking-normal {
     letter-spacing: 0em;
   }
@@ -1845,6 +1905,14 @@ video {
     margin-top: 1.25rem;
   }
 
+  .laptop\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
+  .laptop\:mt-1 {
+    margin-top: 0.25rem;
+  }
+
   .laptop\:flex {
     display: flex;
   }
@@ -1889,6 +1957,10 @@ video {
     max-width: 210px;
   }
 
+  .laptop\:max-w-40\% {
+    max-width: 40%;
+  }
+
   .laptop\:max-w-45\% {
     max-width: 45%;
   }
@@ -1915,6 +1987,14 @@ video {
 
   .laptop\:max-w-smallcustom {
     max-width: 21rem;
+  }
+
+  .laptop\:max-w-60\% {
+    max-width: 60%;
+  }
+
+  .laptop\:max-w-70\% {
+    max-width: 77%;
   }
 
   .laptop\:grid-cols-2 {
@@ -2100,6 +2180,10 @@ video {
     margin-right: 3.5rem;
   }
 
+  .desktop\:mt-32 {
+    margin-top: 8rem;
+  }
+
   .desktop\:mt-60 {
     margin-top: 15rem;
   }
@@ -2110,6 +2194,22 @@ video {
 
   .desktop\:mt-9 {
     margin-top: 2.25rem;
+  }
+
+  .desktop\:mb-60px {
+    margin-bottom: 60px;
+  }
+
+  .desktop\:mb-170px {
+    margin-bottom: 170px;
+  }
+
+  .desktop\:mt-7 {
+    margin-top: 1.75rem;
+  }
+
+  .desktop\:mt-6 {
+    margin-top: 1.5rem;
   }
 
   .desktop\:block {
