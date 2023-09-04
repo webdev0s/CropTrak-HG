@@ -7,7 +7,9 @@ module.exports = {
         'globe-pattern': "url(https://staging3.croptrak.com/wp-content/uploads/2023/08/bg-about.svg)"
       },
       backgroundPosition: {
-        'mobile-position': 'center top 2%'
+        'mobile-position': 'center top 2%',
+        'about-mobile-position': 'left 15vw top 0px',
+        'about-position': 'left 15vw top 70px',
       },
       colors:{
       'primary-white': '#FEFEFE',
@@ -50,8 +52,10 @@ module.exports = {
         '12': '3rem',
       },
       letterSpacing: {
+        'smallcustom': '0.01rem',
         'wide' : '0.03rem',
         'widecustom' : '0.03125rem',
+        'giant': '0.045rem',
         'custom': '0.02rem'
       },
       spacing: {
@@ -78,6 +82,7 @@ module.exports = {
         '13': '3.25rem',
         '1.05rem': '1.05rem',
         '468px': '468px',
+        '340px': '340px',
         '300px': '300px',
         '170px': '170px',
         '145px': '145px',
@@ -119,6 +124,7 @@ module.exports = {
         '80%' : '80%',
         '76%': '76%',
         '75%' : '75%',
+        '74%': '74%',
         '70%': '77%',
         '60%': '60%',
         '53%': '53%',
