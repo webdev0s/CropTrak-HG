@@ -634,12 +634,12 @@ video {
   z-index: 20;
 }
 
-.z-50 {
-  z-index: 50;
-}
-
 .z-30 {
   z-index: 30;
+}
+
+.z-50 {
+  z-index: 50;
 }
 
 .col-span-1 {
@@ -669,6 +669,11 @@ video {
   margin-right: auto;
 }
 
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .-mb-340px {
   margin-bottom: -340px;
 }
@@ -685,8 +690,8 @@ video {
   margin-top: -0.75rem;
 }
 
-.-mt-300px {
-  margin-top: -300px;
+.-mt-44 {
+  margin-top: -11rem;
 }
 
 .mb-10 {
@@ -707,10 +712,6 @@ video {
 
 .mb-16 {
   margin-bottom: 4rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
 }
 
 .mb-24 {
@@ -849,58 +850,6 @@ video {
   margin-top: 2.25rem;
 }
 
-.-mt-102px {
-  margin-top: -102px;
-}
-
-.-mb-5 {
-  margin-bottom: -1.25rem;
-}
-
-.-mt-10 {
-  margin-top: -2.5rem;
-}
-
-.-mt-20 {
-  margin-top: -5rem;
-}
-
-.-mb-20 {
-  margin-bottom: -5rem;
-}
-
-.-mb-4 {
-  margin-bottom: -1rem;
-}
-
-.-mb-40 {
-  margin-bottom: -10rem;
-}
-
-.-mt-8 {
-  margin-top: -2rem;
-}
-
-.-mt-4 {
-  margin-top: -1rem;
-}
-
-.-mt-40 {
-  margin-top: -10rem;
-}
-
-.-mt-80 {
-  margin-top: -20rem;
-}
-
-.-mt-24 {
-  margin-top: -6rem;
-}
-
-.-mt-44 {
-  margin-top: -11rem;
-}
-
 .block {
   display: block;
 }
@@ -933,16 +882,12 @@ video {
   height: 8rem;
 }
 
-.h-526px {
-  height: 526px;
+.h-360px {
+  height: 360px;
 }
 
 .h-full {
   height: 100%;
-}
-
-.h-360px {
-  height: 360px;
 }
 
 .min-h-100px {
@@ -963,6 +908,10 @@ video {
 
 .w-20 {
   width: 5rem;
+}
+
+.w-60px {
+  width: 60px;
 }
 
 .w-90\% {
@@ -1266,6 +1215,11 @@ video {
   padding: 5%;
 }
 
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .px-30px {
   padding-left: 30px;
   padding-right: 30px;
@@ -1306,6 +1260,11 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -1314,6 +1273,21 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .pb-1 {
@@ -1609,6 +1583,10 @@ video {
   line-height: 1.25;
 }
 
+.\!tracking-giant {
+  letter-spacing: 0.045rem !important;
+}
+
 .tracking-2xl {
   letter-spacing: 0.05rem;
 }
@@ -1685,6 +1663,18 @@ video {
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.outline {
+  outline-style: solid;
+}
+
+.outline-1 {
+  outline-width: 1px;
+}
+
+.outline-primary-taupe {
+  outline-color: #D1CBC0;
 }
 
 .transition {
@@ -1911,6 +1901,10 @@ video {
     margin-right: 0px;
   }
 
+  .tablet\:mb-17 {
+    margin-bottom: 4.2rem;
+  }
+
   .tablet\:mb-36 {
     margin-bottom: 9rem;
   }
@@ -1981,6 +1975,10 @@ video {
 
   .tablet\:max-w-240px {
     max-width: 240px;
+  }
+
+  .tablet\:max-w-60\% {
+    max-width: 60%;
   }
 
   .tablet\:max-w-90\% {
@@ -2134,8 +2132,20 @@ video {
     margin-top: -0.25rem;
   }
 
+  .laptop\:-mt-300px {
+    margin-top: -300px;
+  }
+
   .laptop\:mb-10 {
     margin-bottom: 2.5rem;
+  }
+
+  .laptop\:mb-12 {
+    margin-bottom: 3rem;
+  }
+
+  .laptop\:mb-20 {
+    margin-bottom: 5rem;
   }
 
   .laptop\:mb-24 {
@@ -2186,18 +2196,6 @@ video {
     margin-top: 1.25rem;
   }
 
-  .laptop\:-mt-300px {
-    margin-top: -300px;
-  }
-
-  .laptop\:mb-20 {
-    margin-bottom: 5rem;
-  }
-
-  .laptop\:mb-12 {
-    margin-bottom: 3rem;
-  }
-
   .laptop\:flex {
     display: flex;
   }
@@ -2210,12 +2208,12 @@ video {
     display: none;
   }
 
-  .laptop\:h-full {
-    height: 100%;
-  }
-
   .laptop\:h-526px {
     height: 526px;
+  }
+
+  .laptop\:h-full {
+    height: 100%;
   }
 
   .laptop\:min-h-140px {
@@ -2482,12 +2480,6 @@ video {
   .laptop\:placeholder\:pt-102px::placeholder {
     padding-top: 102px;
   }
-
-  @media (min-width: 1400px) {
-    .laptop\:desktop\:-mt-300px {
-      margin-top: -300px;
-    }
-  }
 }
 
 @media (min-width: 1400px) {
@@ -2497,6 +2489,10 @@ video {
 
   .desktop\:mb-20 {
     margin-bottom: 5rem;
+  }
+
+  .desktop\:mb-28 {
+    margin-bottom: 7rem;
   }
 
   .desktop\:mb-38px {
@@ -2547,14 +2543,6 @@ video {
     margin-top: 2rem;
   }
 
-  .desktop\:-mt-300px {
-    margin-top: -300px;
-  }
-
-  .desktop\:mb-28 {
-    margin-bottom: 7rem;
-  }
-
   .desktop\:block {
     display: block;
   }
@@ -2585,6 +2573,10 @@ video {
 
   .desktop\:max-w-full {
     max-width: 100%;
+  }
+
+  .desktop\:max-w-550px {
+    max-width: 550px;
   }
 
   .desktop\:grid-cols-5 {

@@ -60,91 +60,41 @@
         </div>
     </div>
   </header>
-  <main class="bg-primary-white laptop:mb-20">
-    <div class="max-w-90% mx-auto desktop:max-w-1340px laptop:flex"> <!-- first section container-->
-      <div class="laptop:w-1/2 laptop:pr-10 desktop:"> <!-- flex diferentiation in laptop (CONTAINS TITLE,P, HEADQUARTES, INQUIRIES)-->
-        <div class="tracking-widecustom mb-6 laptop:mb-12 desktop:mb-28"> <!-- first paragraph div-->
-          <div class="text-4xl laptop:text-70px">
-            <h1>Contact Us</h1>
-          </div>
-          <div class="text-17px font-primary-serif pt-6 leading-150% break-words tracking-2xl laptop:text-2xl laptop:pt-20 laptop:!tracking-widecustom laptop:max-w-586px">
-            <p>Thanks for visiting. Our team of engineering, data science, and process improvement professionals are here to help. Let us help you make sense of the digital supply chain world today!</p>
-          </div>
-        </div>
-        <div class="block tablet:grid tablet:grid-cols-2 tablet:justify-between">
-          <div class=""> <!--headquarters div-->
-            <div class="text-xs uppercase pb-4 tracking-widecustom">
-              <h2>HEADQUARTERS</h2>
-            </div>
-            <div class="flex gap-x-3">
-              <div class="mt-2">
-                <img src="../img/contact-us/House.png" alt="">
-              </div>
-              <div class="text-lg tracking-giant">
-                <p class="pb-2 mt-1">4703 East Camp Lowell</p>
-                <p class="pb-1">Suite 253</p>
-                <p>Tucson, AZ 85712 USA</p>
-              </div>
-            </div>
-          </div>
-          <div class="tablet:justify-self-center"> <!--inquiries div-->
-            <div class="text-xs uppercase pb-4 tracking-giant mt-10 tablet:mt-0">
-              <h2>Inquiries</h2>
-            </div>
-            <div class="flex gap-x-3">
-              <div class="gap-x-3">
-                <div class="mt-1 pb-2">
-                  <img src="../img/contact-us/SpeechBubble.png" alt="">
-                </div>
-                <div class="mt-2 pb-2">
-                  <img src="../img/contact-us/Group 1.png" alt="">
-                </div>
-                <div class="mt-1 pb-2">
-                  <i class="fa-brands fa-linkedin fa-xl"></i>
-                </div>
-              </div>
-              <div class="text-lg tracking-giant">
-                <p class="pb-2">(520) 445-8022</p>
-                <p class="pb-2">hello@croptrak.com</p>
-                <p class="pb-2">Find us on LinkedIn</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> <!-- FLEX DIFERENTIATION END-->
-      <div class="bg-primary-navy  text-primary-gray text-base tablet:text-xl laptop:text-2xl laptop:font-medium mt-16 relative z-30 mb-4 flex-1 laptop:flex-auto desktop:max-w-655px desktop:ml-auto"> <!-- formulary div -->
-        <div class="max-w-90% mx-auto py-6 tablet:py-16 tablet:px-6"> <!-- form container-->
-          <div class="pt-6 pb-3 pl-3  placeholder:outline-none border-b-2 border-primary-white">
-            <label for="userName">
-            <input class="bg-primary-navy outline-none w-full text-primary-formulary focus:text-primary-gray placeholder:text-primary-formulary" type="text" id="userName" placeholder="Name">
-          </label>
-          </div>
-          <div class=" pt-8 tablet:pt-10 tablet:pb-6 pb-3 pl-3 placeholder:outline-none border-b-2 border-primary-white ">
-            <label for="company">
-            <input class="bg-primary-navy outline-none w-full text-primary-formulary focus:text-primary-gray placeholder:text-primary-formulary" type="text" id="company" placeholder="Company">
-            </label>
-          </div>
-          <div class=" pt-8 tablet:pt-10 tablet:pb-6 pb-3 pl-3 placeholder:outline-none border-b-2 border-primary-white">
-            <label for="company">
-            <input class="bg-primary-navy outline-none w-full text-primary-formulary focus:text-primary-gray placeholder:text-primary-formulary" type="email" id="email" placeholder="Email Adress">
-            </label>
-          </div>
-          <div class=" pt-8 pb-3 pl-3 placeholder:outline-none border-b-2 border-primary-white">
-            <label for="message">
-            <textarea class="bg-primary-navy outline-none w-full text-primary-formulary focus:text-primary-gray min-h-100px laptop:min-h-140px placeholder:text-primary-formulary focus:placeholder:opacity-0 laptop:placeholder:pt-102px" placeholder="Message" id="message"></textarea>
-            </label>
-          </div>
-          <div class="py-4 bg-primary-white mt-14 text-center text-primary-night font-medium hover:cursor-pointer tablet:w-1/2 laptop:w-52 tablet:ml-auto">
-            <label for="enterData"> Get in Touch
-              <button id="enterData" type="submit"></button>
-            </label>
-          </div>
-        </div> <!-- form container-->
-      </div> <!-- formulary div end -->
-    </div> <!-- first section container-->
-  </main>
-  <aside class="bg-primary-gray h-360px laptop:h-526px w-full bg-contact-pattern bg-contact-posit  laptop:-mt-300px -mt-44 bg-cover">   
+  <aside class="bg-primary-white"> <!-- title-->
+    <div class="max-w-90% mx-auto desktop:max-w-1340px text-4xl mb-11 tablet:text-56px laptop:text-70px">
+      <h1>News and Media</h1>
+    </div>
   </aside>
+  <section class="bg-primary-white mb-6"> <!-- paragraph and search form-->
+    <div class="max-w-90% mx-auto desktop:max-w-1340px ">
+      <div class="font-primary-serif text-17px tablet:text-19px laptop:text-2xl !tracking-giant !leading-150% tablet:max-w-90% laptop:max-w-60% mb-11 tablet:mb-17 laptop:!tracking-widecustom">
+        <p>Our industry experts, world-class solutions, and pioneering clients are on track together. You can find a few of their stories here, and always reach out to us to learn more.</p>
+      </div>
+      <div class="max-w-90% tablet:max-w-60% laptop:max-w-45% desktop:max-w-550px">
+        <form action="#" class="flex">
+          <div class="flex-1">
+            <label for="search">
+              <input class="outline outline-1 outline-primary-taupe py-3 px-3 w-full text-sm" type="search" name="search" id="search">
+            </label>
+          </div>
+          <div class="w-60px flex justify-center items-center text-sm">
+            <label for="submitSearch">
+              <button>
+                <i class="fa-solid fa-magnifying-glass fa-2xl"></i>
+              </button>
+            </label>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <main class="bg-primary-gray py-10">
+    <div class="max-w-90% mx-auto desktop:max-w-1340px">
+      <div class="bg-white px-6 py-5">
+        <p>12321321312</p>
+      </div>
+    </div>
+  </main>
   <footer class="bg-primary-navy pt-10 laptop:pt-69px ">
     <div class="max-w-90% mx-auto desktop:max-w-1340px font-primary-sans"> <!-- container -->
       <div class="text-primary-white tracking-widecustom font-light max-w-595px tablet:text-xl pb-16 laptop:pb-145px"> <!-- column list div-->
