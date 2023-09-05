@@ -4,13 +4,15 @@ module.exports = {
   theme: {
     extend: {   
       backgroundImage: {
-        'globe-pattern': "url(https://staging3.croptrak.com/wp-content/uploads/2023/08/bg-about.svg)"
+        'globe-pattern': "url(https://staging3.croptrak.com/wp-content/uploads/2023/08/bg-about.svg)",
+        'contact-pattern': "url(https://croptrak.com/wp-content/uploads/2023/08/bg-contact.svg)",
       },
       backgroundPosition: {
         'mobile-position': 'center top 2%',
         'about-mobile-position': 'left 15vw top 0px',
         'about-position': 'left 15vw top 70px',
         'house-posit': 'left 5px',
+        'contact-posit': 'left top 1px',
       },
       colors:{
       'primary-white': '#FEFEFE',
@@ -22,6 +24,7 @@ module.exports = {
       'primary-gold': '#DBA712',
       'primary-taupe': '#D1CBC0',
       'primary-clay': '#873331',
+      'primary-formulary': '#838383',
       'primary-dropdown': '#666',
       'secondary-dropdown': '#999',
       'bg-dropdown': '#F9F9F9',
@@ -91,6 +94,7 @@ module.exports = {
         '300px': '300px',
         '170px': '170px',
         '145px': '145px',
+        '102px': '102px',
         '84px': '84px',
         '75px': '75px',
         '73px': '73px',
@@ -119,6 +123,8 @@ module.exports = {
         '1240px': '1240px',
         '1102px': '976.5px',
         '938px': '938px',
+        '655px': '655px',
+        '586px': '586px',
         '97%' : '97%',
         '95%' : '95%', 
         'custom': '90.17%',
@@ -166,9 +172,14 @@ module.exports = {
         '200px': '200px',
       },
       height: {
+        '526px': '526px',
         '360px': '360px',
         '108px': '108px',
         '155px': '155px',
+      },
+      minHeight:{
+        '100px': '100px',
+        '140px': '140px',
       },
       minWidth:{
         '1400px': '1400px',

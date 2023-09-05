@@ -638,6 +638,10 @@ video {
   z-index: 50;
 }
 
+.z-30 {
+  z-index: 30;
+}
+
 .col-span-1 {
   grid-column: span 1 / span 1;
 }
@@ -679,6 +683,10 @@ video {
 
 .-mt-3 {
   margin-top: -0.75rem;
+}
+
+.-mt-300px {
+  margin-top: -300px;
 }
 
 .mb-10 {
@@ -793,6 +801,10 @@ video {
   margin-top: 3.5rem;
 }
 
+.mt-16 {
+  margin-top: 4rem;
+}
+
 .mt-18px {
   margin-top: 18px;
 }
@@ -837,6 +849,58 @@ video {
   margin-top: 2.25rem;
 }
 
+.-mt-102px {
+  margin-top: -102px;
+}
+
+.-mb-5 {
+  margin-bottom: -1.25rem;
+}
+
+.-mt-10 {
+  margin-top: -2.5rem;
+}
+
+.-mt-20 {
+  margin-top: -5rem;
+}
+
+.-mb-20 {
+  margin-bottom: -5rem;
+}
+
+.-mb-4 {
+  margin-bottom: -1rem;
+}
+
+.-mb-40 {
+  margin-bottom: -10rem;
+}
+
+.-mt-8 {
+  margin-top: -2rem;
+}
+
+.-mt-4 {
+  margin-top: -1rem;
+}
+
+.-mt-40 {
+  margin-top: -10rem;
+}
+
+.-mt-80 {
+  margin-top: -20rem;
+}
+
+.-mt-24 {
+  margin-top: -6rem;
+}
+
+.-mt-44 {
+  margin-top: -11rem;
+}
+
 .block {
   display: block;
 }
@@ -869,8 +933,20 @@ video {
   height: 8rem;
 }
 
+.h-526px {
+  height: 526px;
+}
+
 .h-full {
   height: 100%;
+}
+
+.h-360px {
+  height: 360px;
+}
+
+.min-h-100px {
+  min-height: 100px;
 }
 
 .w-11 {
@@ -971,10 +1047,6 @@ video {
 
 .max-w-full {
   max-width: 100%;
-}
-
-.max-w-611px {
-  max-width: 611px;
 }
 
 .flex-1 {
@@ -1154,6 +1226,10 @@ video {
   --tw-bg-opacity: 0.75;
 }
 
+.bg-contact-pattern {
+  background-image: url(https://croptrak.com/wp-content/uploads/2023/08/bg-contact.svg);
+}
+
 .bg-globe-pattern {
   background-image: url(https://staging3.croptrak.com/wp-content/uploads/2023/08/bg-about.svg);
 }
@@ -1168,6 +1244,10 @@ video {
 
 .bg-about-position {
   background-position: left 15vw top 70px;
+}
+
+.bg-contact-posit {
+  background-position: left top 1px;
 }
 
 .bg-mobile-position {
@@ -1226,6 +1306,20 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1260,6 +1354,10 @@ video {
 
 .pb-28 {
   padding-bottom: 7rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
 }
 
 .pb-32 {
@@ -1318,6 +1416,10 @@ video {
   padding-left: 6rem;
 }
 
+.pl-3 {
+  padding-left: 0.75rem;
+}
+
 .pl-5 {
   padding-left: 1.25rem;
 }
@@ -1372,6 +1474,10 @@ video {
 
 .pt-75px {
   padding-top: 75px;
+}
+
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .text-center {
@@ -1541,6 +1647,16 @@ video {
   color: rgb(102 102 102 / var(--tw-text-opacity));
 }
 
+.text-primary-formulary {
+  --tw-text-opacity: 1;
+  color: rgb(131 131 131 / var(--tw-text-opacity));
+}
+
+.text-primary-gray {
+  --tw-text-opacity: 1;
+  color: rgb(242 241 239 / var(--tw-text-opacity));
+}
+
 .text-primary-green {
   --tw-text-opacity: 1;
   color: rgb(120 185 109 / var(--tw-text-opacity));
@@ -1566,6 +1682,11 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -1576,6 +1697,26 @@ video {
 
 .duration-300 {
   transition-duration: 300ms;
+}
+
+.placeholder\:text-primary-formulary::-moz-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(131 131 131 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-primary-formulary::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(131 131 131 / var(--tw-text-opacity));
+}
+
+.placeholder\:outline-none::-moz-placeholder {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.placeholder\:outline-none::placeholder {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 .before\:absolute::before {
@@ -1732,6 +1873,10 @@ video {
   border-color: rgb(35 31 32 / var(--tw-border-opacity));
 }
 
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
+}
+
 .hover\:bg-bg-dropdown:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(249 249 249 / var(--tw-bg-opacity));
@@ -1745,6 +1890,19 @@ video {
 .hover\:text-secondary-dropdown:hover {
   --tw-text-opacity: 1;
   color: rgb(153 153 153 / var(--tw-text-opacity));
+}
+
+.focus\:text-primary-gray:focus {
+  --tw-text-opacity: 1;
+  color: rgb(242 241 239 / var(--tw-text-opacity));
+}
+
+.focus\:placeholder\:opacity-0:focus::-moz-placeholder {
+  opacity: 0;
+}
+
+.focus\:placeholder\:opacity-0:focus::placeholder {
+  opacity: 0;
 }
 
 @media (min-width: 768px) {
@@ -1777,6 +1935,10 @@ video {
     margin-right: 4rem;
   }
 
+  .tablet\:mt-0 {
+    margin-top: 0px;
+  }
+
   .tablet\:mt-4 {
     margin-top: 1rem;
   }
@@ -1793,12 +1955,20 @@ video {
     display: flex;
   }
 
+  .tablet\:grid {
+    display: grid;
+  }
+
   .tablet\:hidden {
     display: none;
   }
 
   .tablet\:h-155px {
     height: 155px;
+  }
+
+  .tablet\:w-1\/2 {
+    width: 50%;
   }
 
   .tablet\:w-full {
@@ -1837,6 +2007,10 @@ video {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+  .tablet\:justify-between {
+    justify-content: space-between;
+  }
+
   .tablet\:gap-x-5 {
     -moz-column-gap: 1.25rem;
          column-gap: 1.25rem;
@@ -1847,12 +2021,34 @@ video {
          column-gap: 5%;
   }
 
+  .tablet\:justify-self-center {
+    justify-self: center;
+  }
+
+  .tablet\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .tablet\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .tablet\:pb-6 {
+    padding-bottom: 1.5rem;
+  }
+
   .tablet\:pb-9 {
     padding-bottom: 2.25rem;
   }
 
   .tablet\:pr-30px {
     padding-right: 30px;
+  }
+
+  .tablet\:pt-10 {
+    padding-top: 2.5rem;
   }
 
   .tablet\:pt-24 {
@@ -1990,6 +2186,18 @@ video {
     margin-top: 1.25rem;
   }
 
+  .laptop\:-mt-300px {
+    margin-top: -300px;
+  }
+
+  .laptop\:mb-20 {
+    margin-bottom: 5rem;
+  }
+
+  .laptop\:mb-12 {
+    margin-bottom: 3rem;
+  }
+
   .laptop\:flex {
     display: flex;
   }
@@ -2006,12 +2214,24 @@ video {
     height: 100%;
   }
 
+  .laptop\:h-526px {
+    height: 526px;
+  }
+
+  .laptop\:min-h-140px {
+    min-height: 140px;
+  }
+
   .laptop\:w-1\/2 {
     width: 50%;
   }
 
   .laptop\:w-1\/4 {
     width: 25%;
+  }
+
+  .laptop\:w-52 {
+    width: 13rem;
   }
 
   .laptop\:w-text {
@@ -2042,8 +2262,8 @@ video {
     max-width: 45%;
   }
 
-  .laptop\:max-w-53\% {
-    max-width: 53%;
+  .laptop\:max-w-586px {
+    max-width: 586px;
   }
 
   .laptop\:max-w-60\% {
@@ -2080,6 +2300,10 @@ video {
 
   .laptop\:max-w-smallcustom {
     max-width: 21rem;
+  }
+
+  .laptop\:flex-auto {
+    flex: 1 1 auto;
   }
 
   .laptop\:grid-cols-2 {
@@ -2146,6 +2370,10 @@ video {
     padding-bottom: 1.75rem;
   }
 
+  .laptop\:pr-10 {
+    padding-right: 2.5rem;
+  }
+
   .laptop\:pt-20 {
     padding-top: 5rem;
   }
@@ -2207,6 +2435,10 @@ video {
     line-height: 1.75rem;
   }
 
+  .laptop\:font-medium {
+    font-weight: 500;
+  }
+
   .laptop\:leading-130\% {
     line-height: 130%;
   }
@@ -2231,8 +2463,8 @@ video {
     line-height: 1.375;
   }
 
-  .laptop\:\!tracking-3xl {
-    letter-spacing: 0.062rem !important;
+  .laptop\:\!tracking-widecustom {
+    letter-spacing: 0.03125rem !important;
   }
 
   .laptop\:tracking-wide {
@@ -2241,6 +2473,20 @@ video {
 
   .laptop\:tracking-widecustom {
     letter-spacing: 0.03125rem;
+  }
+
+  .laptop\:placeholder\:pt-102px::-moz-placeholder {
+    padding-top: 102px;
+  }
+
+  .laptop\:placeholder\:pt-102px::placeholder {
+    padding-top: 102px;
+  }
+
+  @media (min-width: 1400px) {
+    .laptop\:desktop\:-mt-300px {
+      margin-top: -300px;
+    }
   }
 }
 
@@ -2301,6 +2547,14 @@ video {
     margin-top: 2rem;
   }
 
+  .desktop\:-mt-300px {
+    margin-top: -300px;
+  }
+
+  .desktop\:mb-28 {
+    margin-bottom: 7rem;
+  }
+
   .desktop\:block {
     display: block;
   }
@@ -2319,6 +2573,10 @@ video {
 
   .desktop\:max-w-1340px {
     max-width: 1340px;
+  }
+
+  .desktop\:max-w-655px {
+    max-width: 655px;
   }
 
   .desktop\:max-w-97\% {

@@ -13,11 +13,11 @@
   <link rel="icon" href="https://croptrak.com/wp-content/uploads/2023/08/cropped-favicon-32x32.png" sizes="32x32">
 </head>
 <body class="font-primary-sans">
-  <header class="bg-primary-white mb-16">
+  <header class="bg-primary-white mb-20">
     <!-- First line - Contact Us -->
     <div class="text-end  border-b-2 border-primary-green">
       <div class="max-w-90% desktop:max-w-1340px mx-auto mt-2 tablet:mt-4 desktop:mt-8">
-        <a class="font-primary-sans uppercase laptop:text-xl text-primary-green font-medium inline-block  border-b-2 pb-2 border-primary-green" href="#">Contact Us</a>
+        <a class="font-primary-sans uppercase laptop:text-xl text-primary-green font-medium inline-block  border-b-2 pb-2 border-primary-green" href="contact-us.html">Contact Us</a>
       </div>
     </div>
     <!-- Second line - Logo and nav CONTAINER -->
@@ -60,58 +60,91 @@
         </div>
     </div>
   </header>
-  <main class="bg-primary-white mb-20">
-    <div class="max-w-90% mx-auto desktop:max-w-1340px"> <!-- first section container-->
-      <div class="tracking-widecustom mb-6 laptop:max-w-53% laptop:mb-28"> <!-- first paragraph div-->
-        <div class="text-4xl laptop:text-70px">
-          <h1>Contact Us</h1>
-        </div>
-        <div class="text-17px font-primary-serif pt-6 leading-150% break-words tracking-2xl laptop:text-2xl laptop:pt-20 laptop:!tracking-3xl max-w-611px">
-          <p>Thanks for visiting. Our team of engineering, data science, and process improvement professionals are here to help. Let us help you make sense of the digital supply chain world today!</p>
-        </div>
-      </div>
-      <div class="block laptop:grid laptop:grid-cols-2 laptop:max-w-53%">
-        <div class=""> <!--headquarters div-->
-          <div class="text-xs uppercase pb-4 tracking-widecustom">
-            <h2>HEADQUARTERS</h2>
+  <main class="bg-primary-white laptop:mb-20">
+    <div class="max-w-90% mx-auto desktop:max-w-1340px laptop:flex"> <!-- first section container-->
+      <div class="laptop:w-1/2 laptop:pr-10 desktop:"> <!-- flex diferentiation in laptop (CONTAINS TITLE,P, HEADQUARTES, INQUIRIES)-->
+        <div class="tracking-widecustom mb-6 laptop:mb-12 desktop:mb-28"> <!-- first paragraph div-->
+          <div class="text-4xl laptop:text-70px">
+            <h1>Contact Us</h1>
           </div>
-          <div class="flex gap-x-3">
-            <div class="mt-1">
-              <img src="../img/contact-us/House.png" alt="">
+          <div class="text-17px font-primary-serif pt-6 leading-150% break-words tracking-2xl laptop:text-2xl laptop:pt-20 laptop:!tracking-widecustom laptop:max-w-586px">
+            <p>Thanks for visiting. Our team of engineering, data science, and process improvement professionals are here to help. Let us help you make sense of the digital supply chain world today!</p>
+          </div>
+        </div>
+        <div class="block tablet:grid tablet:grid-cols-2 tablet:justify-between">
+          <div class=""> <!--headquarters div-->
+            <div class="text-xs uppercase pb-4 tracking-widecustom">
+              <h2>HEADQUARTERS</h2>
             </div>
-            <div class="text-lg tracking-giant">
-              <p>4703 East Camp Lowell</p>
-              <p>Suite 253</p>
-              <p>Tucson, AZ 85712 USA</p>
-            </div>
-          </div>
-        </div>
-        <div class=""> <!--inquiries div-->
-          <div class="text-xs uppercase pb-4 tracking-giant mt-10 laptop:mt-0">
-            <h2>Inquiries</h2>
-          </div>
-          <div class="flex gap-x-3">
-            <div class="gap-x-3">
-              <div class="mt-1 pb-2">
-                <img src="../img/contact-us/SpeechBubble.png" alt="">
+            <div class="flex gap-x-3">
+              <div class="mt-2">
+                <img src="../img/contact-us/House.png" alt="">
               </div>
-              <div class="mt-2 pb-2">
-                <img src="../img/contact-us/Group 1.png" alt="">
-              </div>
-              <div class="mt-1 pb-2">
-                <i class="fa-brands fa-linkedin fa-xl"></i>
+              <div class="text-lg tracking-giant">
+                <p class="pb-2 mt-1">4703 East Camp Lowell</p>
+                <p class="pb-1">Suite 253</p>
+                <p>Tucson, AZ 85712 USA</p>
               </div>
             </div>
-            <div class="text-lg tracking-giant">
-              <p class="pb-2">(520) 445-8022</p>
-              <p class="pb-2">hello@croptrak.com</p>
-              <p class="pb-2">Find us on LinkedIn</p>
+          </div>
+          <div class="tablet:justify-self-center"> <!--inquiries div-->
+            <div class="text-xs uppercase pb-4 tracking-giant mt-10 tablet:mt-0">
+              <h2>Inquiries</h2>
+            </div>
+            <div class="flex gap-x-3">
+              <div class="gap-x-3">
+                <div class="mt-1 pb-2">
+                  <img src="../img/contact-us/SpeechBubble.png" alt="">
+                </div>
+                <div class="mt-2 pb-2">
+                  <img src="../img/contact-us/Group 1.png" alt="">
+                </div>
+                <div class="mt-1 pb-2">
+                  <i class="fa-brands fa-linkedin fa-xl"></i>
+                </div>
+              </div>
+              <div class="text-lg tracking-giant">
+                <p class="pb-2">(520) 445-8022</p>
+                <p class="pb-2">hello@croptrak.com</p>
+                <p class="pb-2">Find us on LinkedIn</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </div> <!-- FLEX DIFERENTIATION END-->
+      <div class="bg-primary-navy  text-primary-gray text-base tablet:text-xl laptop:text-2xl laptop:font-medium mt-16 relative z-30 mb-4 flex-1 laptop:flex-auto desktop:max-w-655px desktop:ml-auto"> <!-- formulary div -->
+        <div class="max-w-90% mx-auto py-6 tablet:py-16 tablet:px-6"> <!-- form container-->
+          <div class="pt-6 pb-3 pl-3  placeholder:outline-none border-b-2 border-primary-white">
+            <label for="userName">
+            <input class="bg-primary-navy outline-none w-full text-primary-formulary focus:text-primary-gray placeholder:text-primary-formulary" type="text" id="userName" placeholder="Name">
+          </label>
+          </div>
+          <div class=" pt-8 tablet:pt-10 tablet:pb-6 pb-3 pl-3 placeholder:outline-none border-b-2 border-primary-white ">
+            <label for="company">
+            <input class="bg-primary-navy outline-none w-full text-primary-formulary focus:text-primary-gray placeholder:text-primary-formulary" type="text" id="company" placeholder="Company">
+            </label>
+          </div>
+          <div class=" pt-8 tablet:pt-10 tablet:pb-6 pb-3 pl-3 placeholder:outline-none border-b-2 border-primary-white">
+            <label for="company">
+            <input class="bg-primary-navy outline-none w-full text-primary-formulary focus:text-primary-gray placeholder:text-primary-formulary" type="email" id="email" placeholder="Email Adress">
+            </label>
+          </div>
+          <div class=" pt-8 pb-3 pl-3 placeholder:outline-none border-b-2 border-primary-white">
+            <label for="message">
+            <textarea class="bg-primary-navy outline-none w-full text-primary-formulary focus:text-primary-gray min-h-100px laptop:min-h-140px placeholder:text-primary-formulary focus:placeholder:opacity-0 laptop:placeholder:pt-102px" placeholder="Message" id="message"></textarea>
+            </label>
+          </div>
+          <div class="py-4 bg-primary-white mt-14 text-center text-primary-night font-medium hover:cursor-pointer tablet:w-1/2 laptop:w-52 tablet:ml-auto">
+            <label for="enterData"> Get in Touch
+              <button id="enterData" type="submit"></button>
+            </label>
+          </div>
+        </div> <!-- form container-->
+      </div> <!-- formulary div end -->
     </div> <!-- first section container-->
   </main>
+  <aside class="bg-primary-gray h-360px laptop:h-526px w-full bg-contact-pattern bg-contact-posit  laptop:-mt-300px -mt-44 bg-cover">   
+  </aside>
   <footer class="bg-primary-navy pt-10 laptop:pt-69px ">
     <div class="max-w-90% mx-auto desktop:max-w-1340px font-primary-sans"> <!-- container -->
       <div class="text-primary-white tracking-widecustom font-light max-w-595px tablet:text-xl pb-16 laptop:pb-145px"> <!-- column list div-->
@@ -123,7 +156,7 @@
             <a class="hover-line" href="about.html">About</a>
           </li>
           <li class="w-half laptop:w-1/4 mb-3">
-            <a class="hover-line" href="">Contact</a>
+            <a class="hover-line" href="contact-us.html">Contact</a>
           </li>
           <li class="w-half laptop:w-1/4 mb-3">
             <a class="hover-line" href="">Terms of Use</a>
@@ -135,7 +168,7 @@
             <a class="hover-line" href="">Media</a>
           </li>
           <li class="w-half laptop:w-1/4 mb-3">
-            <a class="hover-line" href="">Careers</a>
+            <a class="hover-line" href="contact-us.html">Careers</a>
           </li>
           <li class="w-half laptop:w-1/4 mb-3">
             <a class="hover-line" href="">Privacy Policy</a>
