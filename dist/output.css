@@ -2494,6 +2494,10 @@ video {
     padding-bottom: 2.5rem;
   }
 
+  .laptop\:mb-60px {
+    margin-bottom: 60px;
+  }
+
   .laptop\:pb-145px {
     padding-bottom: 145px;
   }
