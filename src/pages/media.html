@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media | CropTrak</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../dist/output.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="https://croptrak.com/wp-content/uploads/2023/08/cropped-favicon-32x32.png" sizes="32x32">
+</head>
+<body class="font-primary-sans">
+  <header class="bg-primary-white mb-16 laptop:mb-20">
+    <!-- First line - Contact Us -->
+    <div class="text-end  border-b-2 border-primary-green">
+      <div class="max-w-90% desktop:max-w-1340px mx-auto mt-2 tablet:mt-4 desktop:mt-8">
+        <a class="font-primary-sans uppercase laptop:text-xl text-primary-green font-medium inline-block  border-b-2 pb-2 border-primary-green" href="contact-us.html">Contact Us</a>
+      </div>
+    </div>
+    <!-- Second line - Logo and nav CONTAINER -->
+    <div class="block mx-auto mt-7 tablet:mt-6 desktop:mt-7 max-w-90% desktop:max-w-1340px items-center">
+          <!-- flex container -->
+        <div class="flex items-center justify-between">
+          <!-- logo image div -->
+          <div class="max-w-70% laptop:min-w-300px">
+            <a href="../index.html"><img class="" src="../img/Logo.png" alt="CropTrak Logo"></a>
+          </div>
+          <div class="laptop:hidden"> <!-- dropdown menu-->
+            <!-- hamburger icon -->
+            <div class="ml-auto tablet:ml-auto flex-1 pl-24 items-center" id="dropdown">
+              <i class="fa-solid fa-bars fa-lg flex-1"></i>
+            </div>
+            <div class="hidden" id="menu">
+              <ul class="absolute text-2xl top-32  bg-white text-primary-dropdown tracking-wide border border-primary-gray border-t-primary-green border-t-3px shadow-md z-50 w-90% left-half -translate-x-50% p-5%">
+                <li class="py-10px px-5% border-b border-primary-gray hover:bg-bg-dropdown hover:text-secondary-dropdown transition duration-300">
+                  <a href="../pages/solutions.html">Solutions</a>
+                </li>
+                <li class="py-10px px-5% border-b border-primary-gray hover:bg-bg-dropdown hover:text-secondary-dropdown transition duration-300">
+                  <a href="../pages/approach.html">Approach</a>
+                </li>
+                <li class="py-10px px-5% border-b border-primary-gray hover:bg-bg-dropdown hover:text-secondary-dropdown transition duration-300">
+                  <a href="about.html">About</a>
+                </li>
+                <li class="py-10px px-5% border-b border-primary-gray hover:bg-bg-dropdown hover:text-secondary-dropdown transition duration-300">
+                  <a href="media.html">Media</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- nav bar -->
+          <nav class="hidden laptop:flex ml-auto items-center">
+            <a class="font-primary-sans font-medium text-primary-night text-2xl ml-60px mr-71px hover:text-primary-green hover-line" href="../pages/solutions.html">Solutions</a>
+            <a class="font-primary-sans font-medium text-primary-night text-2xl mr-71px hover:text-primary-green  hover-line" href="../pages/approach.html">Approach</a>
+            <a class="font-primary-sans font-medium text-primary-night text-2xl mr-71px hover:text-primary-green  hover-line" href="about.html">About</a>
+            <a class="font-primary-sans font-medium text-primary-green text-2xl  hover:text-primary-green  hover-line" href="media.html">Media</a>
+          </nav>
+        </div>
+    </div>
+  </header>
+  <aside class="bg-primary-white"> <!-- title-->
+    <div class="max-w-90% mx-auto desktop:max-w-1340px text-4xl mb-11 tablet:text-56px laptop:text-70px">
+      <h1>News and Media</h1>
+    </div>
+  </aside>
+  <section class="bg-primary-white mb-6"> <!-- paragraph and search form-->
+    <div class="max-w-90% mx-auto desktop:max-w-1340px ">
+      <div class="font-primary-serif text-17px tablet:text-19px laptop:text-2xl !tracking-giant !leading-150% tablet:max-w-90% laptop:max-w-60% mb-11 tablet:mb-17 laptop:!tracking-widecustom">
+        <p>Our industry experts, world-class solutions, and pioneering clients are on track together. You can find a few of their stories here, and always reach out to us to learn more.</p>
+      </div>
+      <div class="max-w-90% tablet:max-w-60% laptop:max-w-45% desktop:max-w-550px">
+        <form action="#" class="flex">
+          <div class="flex-1">
+            <label for="search">
+              <input class="outline outline-1 outline-primary-taupe py-3 px-3 w-full text-sm" type="search" name="search" id="search">
+            </label>
+          </div>
+          <div class="w-60px flex justify-center items-center text-sm">
+            <label for="submitSearch">
+              <button>
+                <i class="fa-solid fa-magnifying-glass fa-2xl"></i>
+              </button>
+            </label>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <main class="bg-primary-gray py-10">
+    <div class="max-w-90% mx-auto desktop:max-w-1340px">
+      <div class="bg-white p-8 shadow-sm laptop:px-20 laptop:py-16 border-b-10 border-primary-green"> <!--first item div-->
+        <div class="text-25px tablet:text-28px laptop:text-4xl font-medium tracking-giant leading-150%"> <!-- title div-->
+          <h2><a class="hover:text-primary-green transition duration-300" href="news1.html">Del Monte calls out CropTrak in John Holden film “Earth”</a></h2>
+        </div>
+        <div class="font-primary-serif text-lg mt-10 tablet:text-19px laptop:text-2xl laptop:max-w-92%"> <!-- text div-->
+          <p>Recently, the series “Earth” with John Holden did a feature on sustainability with our long term client Del Monte! They dive into the processes and solutions needed to keep up...</p>
+        </div>
+        <div class="mt-5 laptop:mt-10 text-lg laptop:text-xl font-medium tracking-widecustom tablet:flex"> <!--date and link div-->
+          <div>
+            <p>IN THE MEDIA &#x2013 MARCH 23, 2023   |</p>
+          </div>
+          <div class="mt-3 tablet:mt-0 tablet:ml-5 hover:text-primary-green transition duration-300 ">
+            <p class="hover-line"><a href="news1.html">READ MORE →</a></p>
+          </div>
+        </div>
+      </div> <!--first item div-->
+      <div class="bg-white p-8 shadow-sm laptop:px-20 laptop:py-16 border-b-10 border-primary-green mt-10 laptop:mt-16"> <!--second item div-->
+        <div class="text-25px tablet:text-28px laptop:text-4xl font-medium tracking-giant leading-150%"> <!-- title div-->
+          <h2><a class="hover:text-primary-green transition duration-300" href="news2.html">Sompo International partners with CropTrak for agri software solution</a></h2>
+        </div>
+        <div class="font-primary-serif text-lg mt-10 tablet:text-19px laptop:text-2xl laptop:max-w-92%"> <!-- text div-->
+          <p>Specialty P&C re/insurer Sompo International Holdings Ltd has partnered with CropTrak, a provider of technology solutions for the food and agriculture industries. The strategic partners...
+          </p>
+        </div>
+        <div class="mt-5 laptop:mt-10 text-lg laptop:text-xl font-medium tracking-widecustom tablet:flex"> <!--date and link div-->
+          <div>
+            <p>IN THE MEDIA &#x2013 MARCH 23, 2023   |</p>
+          </div>
+          <div class="mt-3 tablet:mt-0 tablet:ml-5 hover:text-primary-green transition duration-300 ">
+            <p class="hover-line"><a href="news2.html">READ MORE →</a></p>
+          </div>
+        </div>
+      </div> <!--second item div-->
+      <div class="bg-white p-8 shadow-sm laptop:px-20 laptop:py-16 border-b-10 border-primary-green mt-10 laptop:mt-16"> <!--third item div-->
+        <div class="text-25px tablet:text-28px laptop:text-4xl font-medium tracking-giant leading-150%"> <!-- title div-->
+          <h2><a class="hover:text-primary-green transition duration-300" href="">Benson Hill, CropTrak collaborate to leverage agronomic insights for greater sustainability and product innovation</a></h2>
+        </div>
+        <div class="font-primary-serif text-lg mt-10 tablet:text-19px laptop:text-2xl laptop:max-w-92%"> <!-- text div-->
+          <p>Specialty P&C re/insurer Sompo International Holdings Ltd has partnered with CropTrak, a provider of technology solutions for the food and agriculture industries. The strategic partners...
+          </p>
+        </div>
+        <div class="mt-5 laptop:mt-10 text-lg laptop:text-xl font-medium tracking-widecustom tablet:flex"> <!--date and link div-->
+          <div>
+            <p>IN THE MEDIA &#x2013 MARCH 23, 2023   |</p>
+          </div>
+          <div class="mt-3 tablet:mt-0 tablet:ml-5 hover:text-primary-green transition duration-300 ">
+            <p class="hover-line"><a href="">READ MORE →</a></p>
+          </div>
+        </div>
+      </div> <!--third item div-->
+      <div class="py-20 desktop:py-28 flex justify-end items-center"> <!-- older entries div -->
+        <div class="pr-3 text-19px font-medium laptop:text-2xl"><a href="#">Older Entries</div>
+        <div><i class="fa-solid fa-arrow-right fa-xl"></i></div></a>
+      </div>
+    </div>
+  </main>
+  <footer class="bg-primary-navy pt-10 laptop:pt-69px ">
+    <div class="max-w-90% mx-auto desktop:max-w-1340px font-primary-sans"> <!-- container -->
+      <div class="text-primary-white tracking-widecustom font-light max-w-595px tablet:text-xl pb-16 laptop:pb-145px"> <!-- column list div-->
+        <ul class="flex flex-wrap justify-between items-stretch">
+          <li class="w-half laptop:w-1/4 mb-3">
+            <a class="hover-line" href="../pages/solutions.html">Solutions</a>
+          </li>
+          <li class="w-half laptop:w-1/4 mb-3">
+            <a class="hover-line" href="about.html">About</a>
+          </li>
+          <li class="w-half laptop:w-1/4 mb-3">
+            <a class="hover-line" href="contact-us.html">Contact</a>
+          </li>
+          <li class="w-half laptop:w-1/4 mb-3">
+            <a class="hover-line" href="">Terms of Use</a>
+          </li>
+          <li class="w-half laptop:w-1/4 mb-3">
+            <a class="hover-line" href="../pages/approach.html">Approach</a>
+          </li>
+          <li class="w-half laptop:w-1/4 mb-3">
+            <a class="hover-line" href="media.html">Media</a>
+          </li>
+          <li class="w-half laptop:w-1/4 mb-3">
+            <a class="hover-line" href="contact-us.html">Careers</a>
+          </li>
+          <li class="w-half laptop:w-1/4 mb-3">
+            <a class="hover-line" href="">Privacy Policy</a>
+          </li>
+        </ul>
+      </div>
+      <div class="mx-auto mt-30px pb-50px laptop:pb-7 border-b-2 border-primary-white"> 
+        <a href="../index.html"><img  class="mx-auto tablet:mx-0" src="../img/Logo (1).png" alt=""></a>
+      </div>
+      <div class="mt-8 laptop:mt-5 pb-12 text-primary-white text-center tablet:text-left">
+        <p class="text-xs tracking-widecustom">© 2023 CROPTRAK ALL RIGHTS RESERVED</p>
+      </div>
+    </div> <!-- end container-->
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="../scripts/contact-us_script.js"></script> 
+</body>

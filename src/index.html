@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CropTrak</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../dist/output.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="https://croptrak.com/wp-content/uploads/2023/08/cropped-favicon-32x32.png" sizes="32x32">
+</head>
+<body>
+  <header class="bg-primary-white mb-16 laptop:mb-20">
+      <!-- First line - Contact Us -->
+      <div class="text-end  border-b-2 border-primary-green">
+        <div class="max-w-90% desktop:max-w-1340px mx-auto mt-2 tablet:mt-4 desktop:mt-8">
+          <a class="font-primary-sans uppercase laptop:text-xl text-primary-green font-medium inline-block  border-b-2 pb-2 border-primary-green" href="pages/contact-us.html">Contact Us</a>
+        </div>
+      </div>
+      <!-- Second line - Logo and nav CONTAINER -->
+      <div class="block mx-auto mt-7 tablet:mt-6 desktop:mt-7 max-w-90% desktop:max-w-1340px items-center">
+            <!-- flex container -->
+          <div class="flex items-center justify-between">          
+            <!-- logo image div -->
+            <div class="max-w-70% laptop:min-w-300px">
+              <a href="index.html"><img class="" src="img/Logo.png" alt="CropTrak Logo"></a>
+            </div>
+            <div class="laptop:hidden"> <!-- dropdown menu-->
+              <!-- hamburger icon -->
+              <div class="ml-auto tablet:ml-auto flex-1 pl-24 items-center" id="dropdown">
+                <i class="fa-solid fa-bars fa-lg mr-4"></i>
+              </div>
+              <div class="hidden" id="menu">
+                <ul class="absolute text-2xl bg-white text-primary-dropdown tracking-wide mt-5 border border-primary-gray border-t-primary-green border-t-3px shadow-md z-50 w-90% left-half -translate-x-50% p-5%">
+                  <li class="py-10px px-5% border-b border-primary-gray hover:bg-bg-dropdown hover:text-secondary-dropdown transition duration-300">
+                    <a href="pages/solutions.html">Solutions</a>
+                  </li>
+                  <li class="py-10px px-5% border-b border-primary-gray hover:bg-bg-dropdown hover:text-secondary-dropdown transition duration-300">
+                    <a href="pages/approach.html">Approach</a>
+                  </li>
+                  <li class="py-10px px-5% border-b border-primary-gray hover:bg-bg-dropdown hover:text-secondary-dropdown transition duration-300">
+                    <a href="pages/about.html">About</a>
+                  </li>
+                  <li class="py-10px px-5% border-b border-primary-gray hover:bg-bg-dropdown hover:text-secondary-dropdown transition duration-300">
+                    <a href="pages/media.html">Media</a>
+                  </li>
+                </ul>
+              </div>
+            </div>          
+            <!-- nav bar -->  
+            <nav class="hidden laptop:flex ml-auto items-center">
+              <a class="font-primary-sans font-medium text-primary-night text-2xl ml-60px mr-71px hover:text-primary-green hover-line" href="pages/solutions.html">Solutions</a>
+              <a class="font-primary-sans font-medium text-primary-night text-2xl mr-71px hover:text-primary-green  hover-line" href="pages/approach.html">Approach</a>
+              <a class="font-primary-sans font-medium text-primary-night text-2xl mr-71px hover:text-primary-green  hover-line" href="pages/about.html">About</a>
+              <a class="font-primary-sans font-medium text-primary-night text-2xl  hover:text-primary-green  hover-line" href="pages/media.html">Media</a>
+            </nav>
+          </div>
+      </div>
+  </header>
+  <main class="bg-primary-white">
+    <!-- main container -->
+    <div class="max-w-90% desktop:max-w-1340px mx-auto text-primary-night ">
+      <!-- H1 div -->
+      <div class="text-4xl tablet:text-56px laptop:leading-130% font-primary-sans leading-tight tracking-wide pb-10px mb-30px desktop:mb-38px tablet:leading-tight tablet:tracking-normal laptop:text-7xl tablet:w-full laptop:max-w-80% laptop:tracking-wide">
+        <h1>
+          Harvest the rewards of healthier supply chain management
+        </h1>
+      </div>
+      <!-- P div -->
+      <div class="text-primary-night text-lg font-primary-serif leading-normal tracking-wide tablet:text-xl  laptop:text-2xl laptop:w-text laptop:leading-9">
+        <p class=""">Digitally define, document, and manage your entire supply chain with our adaptive platform, created solely and specifically to meet the unique needs of the Food and Agriculture industry. End the confusion, shed light on unseen challenges, and realize a new level of efficiency, transparency, and opportunity.</p>
+      </div>
+      <!-- Image div -->
+      <div class="pt-75px mb-12 desktop:mb-56px">
+        <iframe src="https://player.vimeo.com/video/853721404?h=7622dea853&amp;autoplay=1&amp;loop=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;controls=0&amp;muted=1&amp;loop=1" class="w-full aspect-video"></iframe>
+      </div>
+      <!-- P div -->
+      <div class="text-primary-night text-lg font-primary-serif leading-normal tracking-wide pb-6 tablet:pb-9 laptop:pb-32 tablet:tracking-widecustom tablet:text-19px laptop:w-textl laptop:text-2xl laptop:leading-normal laptop:text-left ml-auto ">
+        <p>Deploying CropTrak requires no coding experience and can easily consolidate paper forms, spreadsheets, legacy software, and real-time tracking. Our workflows integrate with your everyday tools and can easily be configured to match your current processes.</p>
+      </div>
+      <!-- Title of the List div -->
+      <div class="font-primary-sans font-medium text-2xl max-w-80% pb-75px laptop:text-5xl laptop:leading-snug laptop:max-w-full">
+        <h2>Gain insights and protect your brand, from seed to sale</h2>
+      </div>
+      <div class="block tablet:flex justify-around desktop:hidden">
+        <!-- First list div (leaf icon) -->
+        <div class="flex">
+          <div class="w-11">
+            <img src="img/time-leaficon.png" alt="Draw of a plant with three leaves">
+          </div>
+          <ul class="font-primary-sans pl-16 pb-20 hover:text-primary-green transition duration-300">
+            <h3 class="font-medium text-xl">Plan, Plant, and Grow</h3>
+            <li class="text-xl pt-5">— Field & Asset Management</li>
+            <li class="text-xl">— Trials Management</li>
+            <li class="text-xl">— Digital Contracting</li>
+            <li class="text-xl">— Field & Production Management</li>
+            <li class="text-xl">— Supply Planning & Allocation</li>
+          </ul>
+        </div>
+        <!-- Second list div (leaf icon) -->
+        <div class="flex tablet:mr-16">
+          <div class="w-17 mr-10">
+            <img  class="w-17" src="img/time-truck icon.png" alt="Draw of a plant with three leaves">
+          </div>
+          <ul class="font-primary-sans  pb-20 hover:text-primary-green transition duration-300">
+            <h3 class="font-medium text-xl">Harvest, Haul, and Deliver</h3>
+            <li class="text-xl pt-5">— Automated Data Capture</li>
+            <li class="text-xl">— Digital Contracting</li>
+            <li class="text-xl">— Logistics Management</li>
+          </ul>
+        </div>
+      </div>
+      <div class="tablet:flex justify-around desktop:hidden">
+        <!-- Third list div (wheat icon) -->
+        <div class="flex">
+          <div class="w-17 mr-10">
+            <img  class="w-17" src="img/time-baggo wheet.png" alt="Draw of two wheet bags with a wheat outside of them.">
+          </div>
+          <ul class="font-primary-sans  pb-20 hover:text-primary-green transition duration-300">
+            <h3 class="font-medium text-xl">Weigh, Grade, and Pay</h3>
+            <li class="text-xl pt-5">— Weights, Grades & Payments</li>
+            <li class="text-xl">— ERP Integration</li>
+            <li class="text-xl">— Compliance & Audit Reporting</li>
+          </ul>
+        </div>
+        <!-- Fourth list div (graph icon) -->
+        <div class="flex tablet:mr-16">
+          <div class="w-17 mr-10">
+            <img  class="w-17" src="img/time-trace track.png" alt="Image of a upward graphic with a tiny plant under it.">
+          </div>
+          <ul class="font-primary-sans  pb-20 hover:text-primary-green transition duration-300">
+            <h3 class="font-medium text-xl">Track, Trace and Tell</h3>
+            <li class="text-xl pt-5">— ESG Survey Management</li>
+            <li class="text-xl">— Data Insights & Analytics</li>
+          </ul>
+        </div>
+      </div>
+    </div>   <!-- Container div end -->     
+    <div class="hidden desktop:block">    <!-- Line (div outside of container)-->
+      <!-- border container -->
+      <div class="border-b-4 border-black mr-23 relative">
+        <span class="after:absolute after:w-30px after:h-30px after:-right-14px after:border-r-4 after:border-b-4 after:border-black after:-bottom-4 after:rotate-45 after:-translate-x-50%">
+        </span>
+        <!-- image container with flex -->
+        <div class="flex items-center pl-14 justify-between max-w-85% pb-38px ">
+          <div class="w-11">
+            <img src="img/time-leaficon.png" alt="">
+          </div>
+          <div class="w-16">
+            <img src="img/time-truck icon.png" alt="">
+          </div>
+          <div class="w-16">
+            <img src="img/time-baggo wheet.png" alt="">
+          </div>
+          <div class="w-20">
+            <img src="img/time-trace track.png" alt="">
+          </div>
+        </div>
+      </div>
+      <!-- grid content -->
+      <div class="hidden desktop:grid grid-cols-4 justify-items-end w-full  text-primary-night">
+        <div class="col-span-1 place-self-start relative ml-14">
+          <span class="before:absolute before:top-0 before:left-18px before:w-2px before:h-6 before:bg-black"></span>
+          <ul class="font-primary-sans pl-5 pt-10 pb-84px hover:text-primary-green transition duration-300">
+            <h3 class="font-medium text-xl">Plan, Plant, and Grow</h3>
+            <li class="text-lg pt-5">— Field & Asset Management</li>
+            <li class="text-lg">— Trials Management</li>
+            <li class="text-lg">— Digital Contracting</li>
+            <li class="text-lg">— Field & Production Management</li>
+            <li class="text-lg">— Supply Planning & Allocation</li>
+          </ul>
+        </div>
+        <div class="col-span-1 place-self-start pl-9 pt-10 relative">
+          <span class="before:absolute before:top-0 before:left-30px before:w-2px before:h-6 before:bg-black"></span>
+          <ul class="font-primary-sans hover:text-primary-green transition duration-300 tracking-tighter">
+            <h3 class="font-medium text-xl">Harvest, Haul, and Deliver</h3>
+            <li class="text-lg pt-5">— Automated Data Capture</li>
+            <li class="text-lg">— Digital Contracting</li>
+            <li class="text-lg">— Logistics Management</li>
+          </ul>
+        </div>
+        <div class="col-span-1 place-self-start pl-7 pt-10 relative">
+          <span class="before:absolute before:top-0 before:left-23px before:w-2px before:h-6 before:bg-black"></span>
+          <ul class="font-primary-sans hover:text-primary-green transition duration-300">
+            <h3 class="font-medium text-xl">Weigh, Grade, and Pay</h3>
+            <li class="text-lg pt-5">— Weights, Grades & Payments</li>
+            <li class="text-lg">— ERP Integration</li>
+            <li class="text-lg">— Compliance & Audit Reporting</li>
+          </ul>
+        </div>
+        <div class="col-span-1 place-self-start pl-5 pt-10 relative">
+          <span class="before:absolute before:top-0 before:left-23px before:w-2px before:h-6 before:bg-black"></span>
+          <ul class="font-primary-sans hover:text-primary-green transition duration-300">
+            <h3 class="font-medium text-xl">Track, Trace and Tell</h3>
+            <li class="text-lg pt-5">— ESG Survey Management</li>
+            <li class="text-lg">— Data Insights & Analytics</li>
+          </ul>
+        </div>
+      </div> <!-- grid content end-->
+    </div> <!-- outside of container end-->
+    <div class="max-w-90% mx-auto desktop:max-w-1340px pb-20 desktop:pb-40"> <!-- link container -->
+      <a class="uppercase font-primary-sans font-medium laptop:text-xl hover-line" href="pages/solutions.html">Learn more about our solutions →</a>
+    </div>
+    <div class="bg-primary-gray laptop:pt-8"> <!-- container do container do container...-->
+      <div class="bg-globe-pattern pt-16 bg-mobile-position bg-cover bg-no-repeat"> <!-- background container -->
+        <div class="max-w-90% mx-auto desktop:max-w-1340px">     <!-- New section container -->
+          <div class="grid laptop:gap-8% laptop:grid-cols-2 text-primary-night">  <!-- section div (grid container)-->
+            <div class="">
+              <div class="font-primary-serif text-xl tablet:text-custom tablet:leading-normal pb-12 laptop:text-2xl laptop:leading-normal laptop:tracking-wide laptop:mb-10"> <!-- paragraph-->
+                <p> Our expert team has successfully deployed CropTrak for multiple Fortune 500 F&A companies, helping them evaluate, digitize, and simplify their existing data management systems. </p>
+              </div>
+              <div class="uppercase font-primary-sans font-medium pb-8 laptop:text-xl"> <!-- link div-->
+                <a class="hover-line" href="pages/about.html">Learn more about CropTrak →</a>
+              </div>
+            </div>
+            <div class="js-scroll invisible">
+              <div class="pt-2 pb-20 flex justify-between border-t-3px border-black items-center"> <!-- inside grid container-->
+                <div class="font-primary-sans font-medium tablet:text-2xl">
+                  <p>Countries</p>
+                </div>
+                <div>
+                  <p class="font-primary-sans font-light text-5xl" id="number1">66</p>
+                </div>
+              </div>
+              <div class="pt-2 pb-20 flex justify-between border-t-3px border-black items-center"> <!-- inside grid container-->
+                <div class="font-primary-sans font-medium tablet:text-2xl">
+                  <p>Active <br class="block tablet:hidden">Languages</p>
+                </div>
+                <div>
+                  <p class="font-primary-sans font-light text-5xl" id="number2">8</p>
+                </div>
+              </div>
+              <div class="pt-2 flex pb-145px justify-between border-t-3px border-black items-center"> <!-- inside grid container-->
+                <div class="font-primary-sans font-medium tablet:text-2xl" >
+                  <p>Different Crops</p>
+                </div>
+                <div>
+                  <p class="font-primary-sans font-light text-5xl" id="number3">73</p>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div> <!-- new section container end-->
+      </div> <!-- new section  BACKGROUND container end-->
+    </div> <!-- container do container do container end-->
+    <aside class="max-w-90% mx-auto desktop:max-w-1340px"> <!-- quote div -->
+      <div class="px-30px pt-16 tablet:pt-24 laptop:pt-40 pb-10 text-primary-night"> <!-- container -->
+        <div class="font-primary-serif italic text-19px leading-normal tablet:leading-150% tablet:pr-30px tracking-widecustom tablet:text-2xl laptop:text-32px  laptop:tracking-widecustom laptop:leading-150% laptop:max-w-86% laptop:pb-7"> <!-- div paragraph -->
+          <p class="pb-5">“CropTrak allows us to accumulate all of our ag data from starting the crop, contracting, all the way through until it&apos;s being dumped at the plant. 
+          <br>
+          For traceability and sustainability processes through the whole growing season, we use the CropTrak platform for everything we need to do.”</p>
+        </div>
+        <div class="text-sm font-primary-sans tracking-wide tablet:text-base laptop:text-19px"> <!-- author -->
+          <p>Randy Pequignot - Del Monte Foods</p>
+        </div>
+      </div>
+    </aside>
+    <aside class="max-w-90% mx-auto font-primary-sans mt-9 laptop:pt-20"> <!-- slide div -->
+      <div class="text-primary-night text-2xl tablet:text-3xl  laptop:text-5xl tracking-widecustom font-medium ">
+        <h2>Our trusted clients</h2>
+      </div>
+      <div class="laptop:mb-28 laptop:mt-20 mt-8">
+        <div id="slide-first" class="slider relative">
+          <div class="px-4 "><img class="h-32 laptop:h-full mx-auto" src="img/brand-1.png" alt=""></div>
+          <div class="m-auto px-4"><img class="h-32 laptop:h-full"src="img/brand-4.png" alt=""></div>
+          <div class="px-4"><img class="h-32 laptop:h-full" src="img/brand-3.png" alt=""></div>
+          <div class="px-4"><img class="h-32 laptop:h-full" src="img/brand-4.png" alt=""></div>
+          <div class="px-4"><img class="h-32 laptop:h-full" src="img/brand-4.png" alt=""></div>
+          <div class="px-4"><img class="h-32 laptop:h-full" src="img/brand-4.png" alt=""></div>
+          <div class="px-4"><img class="h-32 laptop:h-full" src="img/brand-4.png" alt=""></div>
+          <div class="px-4"><img class="h-32 laptop:h-full" src="img/brand-4.png" alt=""></div>
+          <div class="px-4"><img class="h-32 laptop:h-full" src="img/brand-4.png" alt=""></div>
+        </div>
+      </div>
+    </aside>
+  </main>
+  <footer class="bg-primary-navy pt-10 laptop:pt-69px">
+    <div class="max-w-90% mx-auto desktop:max-w-1340px font-primary-sans"> <!-- container -->
+      <div class="text-primary-white tracking-widecustom font-light max-w-595px tablet:text-xl pb-16 laptop:pb-145px"> <!-- column list div-->
+        <ul class="flex flex-wrap justify-between items-stretch">
+          <li class="w-half laptop:w-1/4 mb-3">
+            <a class="hover-line" href="pages/solutions.html">Solutions</a>
+          </li>
+          <li class="w-half laptop:w-1/4 mb-3">
+            <a class="hover-line" href="about.html">About</a>
+          </li>
+          <li class="w-half laptop:w-1/4 mb-3">
+            <a class="hover-line" href="pages/contact-us.html">Contact</a>
+          </li>
+          <li class="w-half laptop:w-1/4 mb-3">
+            <a class="hover-line" href="">Terms of Use</a>
+          </li>
+          <li class="w-half laptop:w-1/4 mb-3">
+            <a class="hover-line" href="pages/approach.html">Approach</a>
+          </li>
+          <li class="w-half laptop:w-1/4 mb-3">
+            <a class="hover-line" href="pages/media.html">Media</a>
+          </li>
+          <li class="w-half laptop:w-1/4 mb-3">
+            <a class="hover-line" href="pages/contact-us.html">Careers</a>
+          </li>
+          <li class="w-half laptop:w-1/4 mb-3">
+            <a class="hover-line" href="">Privacy Policy</a>
+          </li>
+        </ul>
+      </div>
+      <div class="mx-auto mt-30px pb-50px laptop:pb-7 border-b-2 border-primary-white"> 
+        <a href="index.html"><img  class="mx-auto tablet:mx-0" src="img/Logo (1).png" alt=""></a>
+      </div>
+      <div class="mt-8 laptop:mt-5 pb-12 text-primary-white text-center tablet:text-left">
+        <p class="text-xs tracking-widecustom">© 2023 CROPTRAK ALL RIGHTS RESERVED</p>
+      </div>
+    </div> <!-- end container-->
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./scripts/script.js"></script>  
+
+</body>
+</html>
