@@ -7,7 +7,11 @@ module.exports = {
         'globe-pattern': "url(https://staging3.croptrak.com/wp-content/uploads/2023/08/bg-about.svg)"
       },
       backgroundPosition: {
-        'mobile-position': 'center top 2%'
+        'mobile-position': 'center top 2%',
+        'about-mobile-position': 'left 15vw top 0px',
+        'about-position': 'left 15vw top 70px',
+        'house-posit': 'left 5px',
+        'contact-posit': 'left top 1px',
       },
       colors:{
       'primary-white': '#FEFEFE',
@@ -19,6 +23,9 @@ module.exports = {
       'primary-gold': '#DBA712',
       'primary-taupe': '#D1CBC0',
       'primary-clay': '#873331',
+      'gray-menu': '#666666',
+      'hover-menu': '#f9f9f9',
+      'hover-text-menu': '#999'
     },
       fontFamily: {
         'primary-sans': ['IBM Plex Sans', 'sans-serif'],
@@ -29,16 +36,28 @@ module.exports = {
         '19px': '19px',
         '25px': '25px',
         '18px': '18px',
-        'testimonial': '32px'
+        'testimonial': '32px',
+        '56px': '56px',
+        '70px': '70px',
+        '40px': '40px',
+        '62px': '62px'
       },
       lineHeight: {
         '150%': '150%',
         'extra-loose': '2.5',
         '12': '3rem',
+        '31.2px': '31.2px',
+        '72.8px': '72.8px',
+        '28.8px': '28.8px',
+        '36px': '36px',
+        '91.1px': '91.1px',
+        '33px': '33px',
+        '130%': '130%'
       },
       letterSpacing: {
         'wide': '0.03rem',
-        'widecustom': '0.03125rem'
+        'widecustom': '0.03125rem',
+        'wideDesktop': '0.04rem'
       },
       spacing: {
         'arrowspc': 'calc(100% - 150px)',
@@ -84,7 +103,42 @@ module.exports = {
         '13px': '13px',
         '600px': '600px',
         '100%': '100%',
-        '2000px': '2000px'
+        '2000px': '2000px',
+        '10%': '10%',
+        '20%': '20%',
+        '14%': '14%',
+        '15%': '15%',
+        '5%': '5%',
+        '12%': '12%',
+        '13%': '13%',
+        '11%': '11%',
+        '9%': '9%',
+        '4%': '4%',
+        '32px': '32px',
+        '1.5%': '1.5%',
+        '3%': '3%',
+        '2.5%': '2.5%',
+        "7%": '7%',
+        '17px': '17px',
+        '1px': '1px',
+        '19px': '19px',
+        '160px': '160px',
+        '176px': '176px',
+        '1000px': '1000px',
+        '17.6px': '17.6px',
+        '500px': '500px',
+        '58px': '58px',
+        '86px': '86px',
+        '54px': '54px',
+        '6%': '6%',
+        '1%': '1%',
+        '2%': '2%',
+        '25%': '25%',
+        '21px': '21px',
+        '84px': '84px',
+        '405px': '405px',
+        '340px': '340px',
+        '250px': '250px'
       },
       rotate:{
         '45': '-45deg'
@@ -102,11 +156,49 @@ module.exports = {
         '93%': '93%',
         '77%': '77%',
         '70%': '70%',
-        '595px': '595px'
+        '595px': '595px',
+        '72%': '72%',
+        '115px': '115px',
+        '91px': '91px',
+        '100px': '100px',
+        '70px': '70px',
+        '133px': '133px',
+        '92px': '92px',
+        '87px': '87px',
+        '88px': '88px',
+        '86px': '86px',
+        '112px': '112px',
+        '86%': '86%',
+        '53%': '53%'
       },
       width: {
         '93%' : '93%',
-        'half': '50%'
+        'half': '50%',
+        '90%': '90%',
+        '330px': '330px',
+        '196px': '196px',
+        '192px': '192px',
+        '175px': '175px',
+        '60%': '60%',
+        '30%': '30%',
+        '38%': '38%',
+        '46%': '46%',
+        '92%': '92%',
+        '45%': '45%',
+        '50%': '50%',
+        '95%': '95%',
+        '62%': '62%',
+        '63%': '63%',
+        '64%': '64%',
+        '25%': '25%',
+        '28%': '28%',
+        '35%': '35%',
+        '65%': '65%'
+      },
+      height: {
+        '330px': '330px',
+        '46px': '46px',
+        '60px': '60px'
       },
       minWidth:{
         '1400px': '1400px',
@@ -119,6 +211,9 @@ module.exports = {
         'desktop': '1400px',
         'custom': '1200px',
       },
+      borderWidth: {
+        '6': '6px'
+      }
     },
   },
   plugins: [],
