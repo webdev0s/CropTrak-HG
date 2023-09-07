@@ -112,9 +112,6 @@ function isElementInBottomViewport(el) {
       // Aplica a transformação gradual ao elemento "innovate-circle"
       const translateX = 0 + percentage / 2;
       innovateCircle.style.transform = `translateX(${translateX}%)`;
-    } else {
-      // Quando "adapt-circle" não está na viewport, retorna "innovate-circle" à posição original
-      innovateCircle.style.transform = 'translateX(0%)';
     }
   }
 
@@ -138,9 +135,6 @@ function isElementInBottomViewport(el) {
       // Aplica a transformação gradual ao elemento "innovate-circle"
       const translateX = 0 + percentage / 2;
       partnerCircle.style.transform = `translateX(${-translateX}%)`;
-    } else {
-      // Quando "adapt-circle" não está na viewport, retorna "innovate-circle" à posição original
-      partnerCircle.style.transform = 'translateX(0%)';
     }
   }
   
@@ -192,9 +186,6 @@ function isElementInBottomViewport(el) {
       // Aplica a transformação gradual ao elemento "innovate-circle"
       const translateX = 0 + percentage / 5;
       innovateCircle.style.transform = `translateX(${translateX}%)`;
-    } else {
-      // Quando "adapt-circle" não está na viewport, retorna "innovate-circle" à posição original
-      innovateCircle.style.transform = 'translateX(0%)';
     }
   }
 
@@ -220,9 +211,6 @@ function isElementInBottomViewport(el) {
       // Aplica a transformação gradual ao elemento "innovate-circle"
       const translateX = 0 + percentage / 5;
       partnerCircle.style.transform = `translateX(${-translateX}%)`;
-    } else {
-      // Quando "adapt-circle" não está na viewport, retorna "innovate-circle" à posição original
-      partnerCircle.style.transform = 'translateX(0%)';
     }
   }
   
