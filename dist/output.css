@@ -1031,6 +1031,10 @@ video {
   max-width: 100%;
 }
 
+.max-w-303px {
+  max-width: 303px;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
