@@ -75,8 +75,8 @@ $('.slider').slick({
   slidesToShow: 4,
   slidesToScroll: 1,
   arrows: true,
-  prevArrow: '<button type="button" class="slick-prev absolute -left-5 laptop:top-1/2 top-1/3  -translate-y-1/2 z-10"><i class="fas fa-arrow-left text-2xl"></i></button>',
-  nextArrow: '<button type="button" class="slick-next absolute -right-5 laptop:top-1/2 top-1/3 -translate-y-1/2 z-10"><i class="fas fa-arrow-right text-2xl"></i></button>', 
+  prevArrow: '<button type="button" class="slick-prev absolute -left-5 top-1/2 laptop:top-1/2 -translate-y-1/2 z-10"><i class="fas fa-arrow-left text-2xl"></i></button>',
+  nextArrow: '<button type="button" class="slick-next absolute -right-5 top-1/2 -translate-y-1/2 z-10"><i class="fas fa-arrow-right text-2xl"></i></button>', 
   responsive: [
     {
       breakpoint: 1024,
