@@ -923,6 +923,10 @@ video {
   height: 100%;
 }
 
+.h-auto {
+  height: auto;
+}
+
 .min-h-100px {
   min-height: 100px;
 }
