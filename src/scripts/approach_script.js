@@ -140,7 +140,7 @@ function isElementInBottomViewport(el) {
   
   // Adicione um ouvinte de eventos de rolagem
 
-  const breakpointMediaQueryMobile = window.matchMedia('(min-width: 349px) and (max-width: 979px)');
+  const breakpointMediaQueryMobile = window.matchMedia('(min-width: 1px) and (max-width: 979px)');
 
   const handleBreakpointChangeMobile = (event) => {
     if (event.matches) {
